@@ -4,7 +4,7 @@ public class SwordHit : MonoBehaviour
 {
     public int damageAmount = 10;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    /*private void OnCollisionEnter2D(Collision2D collision)
     {
         // Check if the collision is with the target object
         if (collision.gameObject.CompareTag("Target"))
@@ -19,5 +19,5 @@ public class SwordHit : MonoBehaviour
                 health.TakeDamage(damageAmount);
             }
         }
-    }
+    }*/
 }
