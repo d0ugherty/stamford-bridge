@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnEnemies : MonoBehaviour
-{
+{/*
     public float rate;
     public float setrate;
     public float difficulty;
@@ -39,5 +39,5 @@ public class SpawnEnemies : MonoBehaviour
         } else {
             difficulty += difficulty;
         }
-    }
+    }*/
 }
