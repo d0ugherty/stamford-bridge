@@ -7,16 +7,25 @@ public class Animations : MonoBehaviour
     public float horizontalInput;
     public float verticalInput;
     private Vector2 movementInput;
+    private bool isFacingRight;
 
     private void Update() {
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
 
+        if(horizontalInput < 0.0f){
+            isFacingRight = false;
+            //Flip();
+        } else {
+            isFacingRight = true;
+        }
+
         if (horizontalInput != 0f || verticalInput != 0f) {
             animator.SetBool("IsWalking", true);
-            Walk();
+            //Walk();
         } else {
             animator.SetBool("IsWalking", false);
+            //Walk();
             Debug.Log("is walking: " + animator.GetBool("IsWalking"));
         }
     }
@@ -27,6 +36,14 @@ public class Animations : MonoBehaviour
 
         movementInput = new Vector2(horizontalInput, verticalInput);
         animator.SetFloat("Direction", movementInput.magnitude);
+    }
+    /**hacky, not really working right*/
+    void Flip(){
+    
+        isFacingRight = !isFacingRight;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
     }
 }
 
