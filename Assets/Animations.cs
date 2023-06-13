@@ -1,35 +1,32 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Animations : MonoBehaviour
 {
     public Animator animator;
-    public float speed;
+    public float horizontalInput;
+    public float verticalInput;
+    private Vector2 movementInput;
 
-    void Start(){
-        animator = GetComponent<Animator>();
-        animator.SetBool("isWalking", true);
-        animator.GetBool("isJumping");
-    }
-    void Update(){
-        if (Input.GetButtonUp("Directional Button")) {
-            animator.SetBool("IsWalking", false);
-        }
+    private void Update() {
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
 
-        if(Input.GetButton("Directional Buttons")){
+        if (horizontalInput != 0f || verticalInput != 0f) {
             animator.SetBool("IsWalking", true);
-            //square_rbody.velocity += (Vector2.up * speed * Time.deltaTime);
             Walk();
+        } else {
+            animator.SetBool("IsWalking", false);
+            Debug.Log("is walking: " + animator.GetBool("IsWalking"));
         }
-        
     }
-    
+
     void Walk(){
-        Vector2 facing = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        animator.SetFloat("XInput", facing.x);
-        animator.SetFloat("YInput", facing.y);
+        animator.SetFloat("XInput", horizontalInput);
+        animator.SetFloat("YInput", verticalInput);
+
+        movementInput = new Vector2(horizontalInput, verticalInput);
+        animator.SetFloat("Direction", movementInput.magnitude);
     }
-
-
 }
+
