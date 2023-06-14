@@ -21,7 +21,7 @@ public class SpawnEnemies : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (count < 11) {
+        if (count < 5) {
             Spawn();
             count++;
         }

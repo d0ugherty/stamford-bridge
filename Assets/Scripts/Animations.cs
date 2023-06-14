@@ -29,7 +29,9 @@ public class Animations : MonoBehaviour
             Debug.Log("is walking: " + animator.GetBool("IsWalking"));
         }
     }
-
+    /** Not doing anything. 
+     ** X & Y inputs are being registered without this method 
+     **/
     void Walk(){
         animator.SetFloat("XInput", horizontalInput);
         animator.SetFloat("YInput", verticalInput);
@@ -37,7 +39,7 @@ public class Animations : MonoBehaviour
         movementInput = new Vector2(horizontalInput, verticalInput);
         animator.SetFloat("Direction", movementInput.magnitude);
     }
-    /**hacky, not really working right*/
+    /** hacky. causes a flicker effect and not really working as intended **/
     void Flip(){
     
         isFacingRight = !isFacingRight;
