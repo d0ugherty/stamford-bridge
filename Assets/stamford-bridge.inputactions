@@ -258,7 +258,7 @@
                     "name": "",
                     "id": "4f5b4ca3-0100-45bb-86d5-f92e408c6d84",
                     "path": "<Keyboard>/space",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Fire",

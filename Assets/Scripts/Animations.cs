@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -16,6 +17,8 @@ public class Animations : MonoBehaviour
         if(IsWalking()) {
             Walk();
         } 
+        IsPlayerAttacking();
+        
     }
 
     /** Detect vertical and horizontal input
@@ -42,18 +45,37 @@ public class Animations : MonoBehaviour
         movementInput = new Vector2(horizontalInput, verticalInput);
     }
 
-    private bool IsPlayerAttacking() {
-        if (Input.GetButtonDown("Fire")){
-            animator.SetBool("IsAttacking", true);
-            return true;
+    /** Check if the space key is being pressed
+     **  if so, trigger the attack animation
+     **/
+    private void IsPlayerAttacking() {
+        if (Keyboard.current.spaceKey.wasPressedThisFrame){
+            animator.SetTrigger("PlayerAttack");
+            ResetTriggerDelayed("PlayerAttack");
+            //return true;
         } else {
-            animator.SetBool("IsAttacking", false);
-            return false;
+            //return false;
         }
     }
 
-    void PlayerAttack() {
+    /** Coroutine & method to invoke the coroutine to delay the trigger reset
+    **  if ResetTrigger() is called without a delay, the 
+    ** the attack trigger is reset before the animation can play
+    */
+    private IEnumerator DelayTriggerReset(string triggerName){
+        while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f) {
+                yield return null;
+        }
+        animator.ResetTrigger(triggerName);
+    }
 
+    private void ResetTriggerDelayed(string triggerName){
+        StartCoroutine(DelayTriggerReset(triggerName));
+    }
+
+
+    void PlayerAttack() {
+            
     }
 }
 
