@@ -22,10 +22,10 @@ public class Animations : MonoBehaviour
 
         if (horizontalInput != 0f || verticalInput != 0f) {
             animator.SetBool("IsWalking", true);
-            //Walk();
+            Walk();
         } else {
             animator.SetBool("IsWalking", false);
-            //Walk();
+            Walk();
             Debug.Log("is walking: " + animator.GetBool("IsWalking"));
         }
     }
@@ -33,8 +33,8 @@ public class Animations : MonoBehaviour
      ** X & Y inputs are being registered without this method 
      **/
     void Walk(){
-        animator.SetFloat("XInput", horizontalInput);
-        animator.SetFloat("YInput", verticalInput);
+        animator.SetFloat("Xinput", horizontalInput);
+        animator.SetFloat("Yinput", verticalInput);
 
         movementInput = new Vector2(horizontalInput, verticalInput);
         animator.SetFloat("Direction", movementInput.magnitude);
