@@ -7,45 +7,53 @@ public class Animations : MonoBehaviour
     public float horizontalInput;
     public float verticalInput;
     private Vector2 movementInput;
-    private bool isFacingRight;
 
     private void Update() {
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
 
-        if(horizontalInput < 0.0f){
-            isFacingRight = false;
-            //Flip();
-        } else {
-            isFacingRight = true;
-        }
-
-        if (horizontalInput != 0f || verticalInput != 0f) {
-            animator.SetBool("IsWalking", true);
+        // if player is moving, play walking animation
+        if(IsWalking()) {
             Walk();
-        } else {
-            animator.SetBool("IsWalking", false);
-            Walk();
-            Debug.Log("is walking: " + animator.GetBool("IsWalking"));
-        }
+        } 
     }
-    /** Not doing anything. 
-     ** X & Y inputs are being registered without this method 
+
+    /** Detect vertical and horizontal input
+    **  Returns true if X or Y values do not equal zero
+    **  otherwise returns false
+    */
+    private bool IsWalking(){
+       if (horizontalInput != 0f || verticalInput != 0f) {
+            animator.SetBool("IsWalking", true);
+            return true;
+       } else {
+            animator.SetBool("IsWalking", false);
+            return false;
+       }
+    }
+
+    /** Determine which animation to use depending on player movement directon
+     **
      **/
-    void Walk(){
+    void Walk() {
         animator.SetFloat("Xinput", horizontalInput);
         animator.SetFloat("Yinput", verticalInput);
 
         movementInput = new Vector2(horizontalInput, verticalInput);
-        animator.SetFloat("Direction", movementInput.magnitude);
     }
-    /** hacky. causes a flicker effect and not really working as intended **/
-    void Flip(){
-    
-        isFacingRight = !isFacingRight;
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+
+    private bool IsPlayerAttacking() {
+        if (Input.GetButtonDown("Fire")){
+            animator.SetBool("IsAttacking", true);
+            return true;
+        } else {
+            animator.SetBool("IsAttacking", false);
+            return false;
+        }
+    }
+
+    void PlayerAttack() {
+
     }
 }
 
