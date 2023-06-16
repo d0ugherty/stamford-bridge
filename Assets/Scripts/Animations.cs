@@ -72,10 +72,5 @@ public class Animations : MonoBehaviour
     private void ResetTriggerDelayed(string triggerName){
         StartCoroutine(DelayTriggerReset(triggerName));
     }
-
-
-    void PlayerAttack() {
-            
-    }
 }
 
