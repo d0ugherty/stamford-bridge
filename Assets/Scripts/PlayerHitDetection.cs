@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerHitDetection : MonoBehaviour
 {
     public string objectToDestroy = "Enemy";
+    private bool hitKeyPressed = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -12,14 +15,20 @@ public class PlayerHitDetection : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
+        if (Keyboard.current.spaceKey.wasPressedThisFrame){
+            hitKeyPressed = true;
+        }
         
     }
 
-    private void OnTriggerEnter2D(Collider2D other){
-        if(other.CompareTag(objectToDestroy)){
-            Destroy(other.gameObject);
+    void OnTriggerEnter2D(Collider2D other){
+        if (hitKeyPressed){
+            Debug.Log("Hit Triggered");
+            if(other.CompareTag(objectToDestroy)){
+                Destroy(other.gameObject);
+            }
+            hitKeyPressed = false;
         }
     }
 }
