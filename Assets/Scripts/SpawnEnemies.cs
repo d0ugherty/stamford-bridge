@@ -33,11 +33,18 @@ public class SpawnEnemies : MonoBehaviour
         Vector3 randomPos = new Vector3(randomPosX, randomPosY, transform.position.z);
 
         GameObject clone = Instantiate(enemy, randomPos, Quaternion.identity);
+        int id = GenerateId();
+        clone.name = "Enemy_" + id;
+        clone.AddComponent<HitDetection>().SetObjectId(id);
         
         if (difficulty >= setrate / 2) {
             difficulty = setrate / 2;
         } else {
             difficulty += difficulty;
         }
+    }
+
+    private int GenerateId(){
+        return Random.Range(1000,10000);
     }
 }
