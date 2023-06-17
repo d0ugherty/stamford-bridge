@@ -26,7 +26,9 @@ public class SpawnEnemies : MonoBehaviour
             count++;
         }
     }
-
+    /** Spawn enemies 
+    **  I should really learn how how this acutally works with the difficulty stuff
+    **/
     void Spawn() {
         float randomPosX = Random.Range(min.position.x, max.position.x);
         float randomPosY = Random.Range(min.position.y, max.position.y);
@@ -35,7 +37,8 @@ public class SpawnEnemies : MonoBehaviour
         GameObject clone = Instantiate(enemy, randomPos, Quaternion.identity);
         int id = GenerateId();
         clone.name = "Enemy_" + id;
-        clone.AddComponent<HitDetection>().SetObjectId(id);
+        //automatically attach the EnemyID script containing a unique id
+        clone.AddComponent<EnemyID>().SetId(id);
         
         if (difficulty >= setrate / 2) {
             difficulty = setrate / 2;
@@ -44,6 +47,9 @@ public class SpawnEnemies : MonoBehaviour
         }
     }
 
+    /** Generate a unique ID for each enemy object
+    **  Used for hit detection 
+    **/
     private int GenerateId(){
         return Random.Range(1000,10000);
     }
