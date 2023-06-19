@@ -33,7 +33,7 @@ public class SpawnEnemies : MonoBehaviour
         float randomPosX = Random.Range(min.position.x, max.position.x);
         float randomPosY = Random.Range(min.position.y, max.position.y);
         Vector3 randomPos = new Vector3(randomPosX, randomPosY, transform.position.z);
-
+    
         GameObject clone = Instantiate(enemy, randomPos, Quaternion.identity);
         int id = GenerateId();
         clone.name = "Enemy_" + id;
