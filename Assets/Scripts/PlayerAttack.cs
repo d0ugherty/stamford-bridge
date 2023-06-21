@@ -26,10 +26,10 @@ public class PlayerAttack : MonoBehaviour
             isProjectileActive = true;
         }
 
-        if (currentProjectile != null && currentProjectile.GetComponent<Projectile>().IsDestroyed) {
-            currentProjectile = null;
-            isProjectileActive = false;
-        }
+       // if (currentProjectile != null && currentProjectile.GetComponent<Projectile>().IsDestroyed) {
+         //   currentProjectile = null;
+           // isProjectileActive = false;
+        //}
 
     }
 }
