@@ -6,7 +6,6 @@ using UnityEngine.InputSystem;
 public class HitDetection : MonoBehaviour
 {
     public string objectToDestroy = "Enemy";
-    private bool hitKeyPressed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -16,15 +15,19 @@ public class HitDetection : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
-        if (Keyboard.current.spaceKey.isPressed){
-            hitKeyPressed = true;
-        } else {
-            hitKeyPressed = false;
-        }
-        
     }
 
     void OnTriggerStay2D(Collider2D other){
+        if (other.CompareTag("Enemy")){
+            Debug.log("enemy object destroyed");
+            Destroy(other);
+        }
+    }
+
+   
+}
+
+/* void OnTriggerStay2D(Collider2D other){
         if (hitKeyPressed && other.CompareTag("Enemy")){
             int targetId = other.gameObject.GetComponent<EnemyID>().id;
             Debug.Log("target id: " + targetId);
@@ -39,5 +42,4 @@ public class HitDetection : MonoBehaviour
         if(enemyID.id == targetId) {
             Destroy(objectToDestroy);
         }
-    }
-}
+    }*/

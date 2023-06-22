@@ -11483,6 +11483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  animator: {fileID: 0}
 --- !u!61 &2079242879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11749,5 +11750,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 7812304201929569416, guid: fcfa72281d2aca19c85a5d07faab653e, type: 3}
-  projectileSpeed: 5
-  maxDistance: 1
+  m_SpawnTransform: {fileID: 2079242881}

@@ -5,12 +5,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerAttack : MonoBehaviour
 {
-
-    public GameObject projectilePrefab;
+    public GameObject hitzonePrefab;
     private Rigidbody2D playerRigidBody;
-    public Transform m_SpawnTransform;
-
-
     private Vector2 movementInput;
     private bool isAttacking;
     private bool isFacingRight;
@@ -21,13 +17,37 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        //UpdateFacingDirection();
+        UpdateFacingDirection();
         Attack();
     }
 
     private void Attack() {
         if (Keyboard.current.spaceKey.wasPressedThisFrame) {
-            playerRigidBody.isKinematic = true;
+            GameObject clone = Instantiate(hitzonePrefab, transform.position, Quaternion.identity);
+        }
+    }
+
+    private void UpdateFacingDirection(){
+        if (movementInput.x > 0) {
+            isFacingRight = true;
+        } else if (movementInput.x < 0) {
+            isFacingRight = false;
+        }
+    }
+}
+
+
+
+
+
+/*private IEnumerator ResetPlayerPhysics(){
+        yield return new WaitForSeconds(0.5f);
+        //Destroy(obj, maxDistance / projectileSpeed);
+        playerRigidBody.isKinematic = false;
+        isAttacking = false;
+    }
+
+    playerRigidBody.isKinematic = true;
 
             Vector2 projectileDirection =  isFacingRight ? Vector2.right : Vector2.left;
 
@@ -35,7 +55,7 @@ public class PlayerAttack : MonoBehaviour
             if (isFacingRight) {
                 clone.transform.right = transform.right.normalized;
             } else {
-                //go left
+                //clone.transform.left = transform.left.normalized;
             }
             
             //Rigidbody2D projectileRigidbody = projectileClone.GetComponent<Rigidbody2D>();
@@ -46,16 +66,8 @@ public class PlayerAttack : MonoBehaviour
             //Debug.Log(movementInput.x);
 
 
-            //StartCoroutine(ResetPlayerPhysics());
-        }
-    }
-
-    /*private IEnumerator ResetPlayerPhysics(){
-        yield return new WaitForSeconds(maxDistance / projectileSpeed);
-        //Destroy(obj, maxDistance / projectileSpeed);
-        //playerRigidBody.isKinematic = false;
-        isAttacking = false;
-    }*/
+            StartCoroutine(ResetPlayerPhysics());
+        }*/
 
 
-}
+
