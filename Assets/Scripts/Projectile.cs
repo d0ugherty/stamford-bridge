@@ -1,22 +1,22 @@
 using UnityEngine;
 
-public class Projectile : MonoBehaviour {
 
-    private Vector2 initialPosition;
-    public float maxDistance;
-    public bool IsDestroyed = false;
-    public GameObject gameObject;
+public class Projectile : MonoBehaviour
+{
+    public float m_Speed = 10f;   // this is the projectile's speed
+    public float m_Lifespan = 0.5f; // this is the projectile's lifespan (in seconds)
+    private Rigidbody2D m_Rigidbody;
 
-    private void Start(){
-        initialPosition = transform.position;
+  
+    void Awake()
+    {
+        m_Rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    private void Update() {
-        float distance = Vector2.Distance(initialPosition, transform.position);
-
-        if (distance >= maxDistance) {
-            IsDestroyed = true;
-            Destroy(gameObject);
-        }
+    void Start()
+    {
+        m_Rigidbody.AddForce(m_Rigidbody.transform.forward * m_Speed);
+        m_Rigidbody.velocity = transform.right * m_Speed;
+        Destroy(gameObject, m_Lifespan);
     }
 }
