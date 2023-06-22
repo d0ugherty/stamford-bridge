@@ -6,33 +6,58 @@ using UnityEngine.InputSystem;
 public class PlayerAttack : MonoBehaviour
 {
     public GameObject hitzonePrefab;
-    private Rigidbody2D playerRigidBody;
-    private Vector2 movementInput;
-    private bool isAttacking;
+    public GameObject player;
+    private GameObject clone;
     private bool isFacingRight;
+    private Rigidbody2D playerRigidBody;
+    public PlayerInput playerInput;
+    private float horizontalInput;
+    private float verticalInput;
 
     private void Start() {
         playerRigidBody = GetComponent<Rigidbody2D>();
+        isFacingRight = true;
     }
 
     private void Update()
     {
+        GetPlayerInput();
         UpdateFacingDirection();
+        //Debug.Log("is facing right " + isFacingRight);
         Attack();
     }
 
     private void Attack() {
         if (Keyboard.current.spaceKey.wasPressedThisFrame) {
-            GameObject clone = Instantiate(hitzonePrefab, transform.position, Quaternion.identity);
+            Vector2 spawnPosition = player.transform.position;
+            if (isFacingRight){
+                spawnPosition += Vector2.right;
+            } else if (!isFacingRight) {
+                spawnPosition += Vector2.left;
+            }
+
+            clone = Instantiate(hitzonePrefab, spawnPosition, Quaternion.identity);
+        }
+
+        if (clone != null){
+            Destroy(clone, 0.3f);
         }
     }
 
+    /* Keep track of player's direction in order
+     * To determine where the hit zone is spawned
+     */
     private void UpdateFacingDirection(){
-        if (movementInput.x > 0) {
+        if (horizontalInput > 0) {
             isFacingRight = true;
-        } else if (movementInput.x < 0) {
+        } else if (horizontalInput < 0) {
             isFacingRight = false;
         }
+    }
+
+    private void GetPlayerInput(){
+        horizontalInput = playerInput.actions["Move"].ReadValue<Vector2>().x;
+        verticalInput = playerInput.actions["Move"].ReadValue<Vector2>().y;
     }
 }
 

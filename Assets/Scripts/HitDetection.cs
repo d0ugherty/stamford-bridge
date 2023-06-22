@@ -19,8 +19,8 @@ public class HitDetection : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other){
         if (other.CompareTag("Enemy")){
-            Debug.log("enemy object destroyed");
-            Destroy(other);
+            Debug.Log("enemy object destroyed");
+            Destroy(other.gameObject);
         }
     }
 
