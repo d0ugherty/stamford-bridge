@@ -11749,5 +11749,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71d4a327a99709b82a520f80f088b65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 7812304201929569416, guid: fcfa72281d2aca19c85a5d07faab653e, type: 3}
-  m_SpawnTransform: {fileID: 2079242881}
+  hitzonePrefab: {fileID: 1062591953411174161, guid: 8bfb3fff3b84a273dac08b9e09d074b7, type: 3}
+  player: {fileID: 2079242876}
+  playerInput: {fileID: 2079242882}

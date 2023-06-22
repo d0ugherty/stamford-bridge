@@ -17,7 +17,7 @@ public class Animations : MonoBehaviour
         if(IsWalking()) {
             Walk();
         } 
-        IsPlayerAttacking();
+        //IsPlayerAttacking();
         
     }
 

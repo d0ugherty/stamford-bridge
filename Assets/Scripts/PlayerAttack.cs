@@ -13,10 +13,12 @@ public class PlayerAttack : MonoBehaviour
     public PlayerInput playerInput;
     private float horizontalInput;
     private float verticalInput;
+    private Animator animator;
 
     private void Start() {
         playerRigidBody = GetComponent<Rigidbody2D>();
         isFacingRight = true;
+        animator = player.GetComponent<Animator>();
     }
 
     private void Update()
@@ -29,6 +31,10 @@ public class PlayerAttack : MonoBehaviour
 
     private void Attack() {
         if (Keyboard.current.spaceKey.wasPressedThisFrame) {
+            //Trigger Animation
+            animator.SetTrigger("PlayerAttack");
+            ResetTriggerDelayed("PlayerAttack");
+          
             Vector2 spawnPosition = player.transform.position;
             if (isFacingRight){
                 spawnPosition += Vector2.right;
@@ -58,6 +64,21 @@ public class PlayerAttack : MonoBehaviour
     private void GetPlayerInput(){
         horizontalInput = playerInput.actions["Move"].ReadValue<Vector2>().x;
         verticalInput = playerInput.actions["Move"].ReadValue<Vector2>().y;
+    }
+
+     /** Coroutine & method to invoke the coroutine to delay the trigger reset
+    **  if ResetTrigger() is called without a delay, the 
+    ** the attack trigger is reset before the animation can play
+    */
+    private IEnumerator DelayTriggerReset(string triggerName){
+        while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f) {
+                yield return null;
+        }
+        animator.ResetTrigger(triggerName);
+    }
+
+    private void ResetTriggerDelayed(string triggerName){
+        StartCoroutine(DelayTriggerReset(triggerName));
     }
 }
 

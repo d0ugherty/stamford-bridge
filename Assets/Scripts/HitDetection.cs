@@ -20,26 +20,9 @@ public class HitDetection : MonoBehaviour
     void OnTriggerStay2D(Collider2D other){
         if (other.CompareTag("Enemy")){
             Debug.Log("enemy object destroyed");
-            Destroy(other.gameObject);
+            Destroy(other.gameObject, 0.8f);
         }
     }
 
-   
 }
 
-/* void OnTriggerStay2D(Collider2D other){
-        if (hitKeyPressed && other.CompareTag("Enemy")){
-            int targetId = other.gameObject.GetComponent<EnemyID>().id;
-            Debug.Log("target id: " + targetId);
-            DestroyObjectByID(targetId);
-            hitKeyPressed = false;
-        }
-    }
-
-    void DestroyObjectByID(int targetId){
-        GameObject objectToDestroy = GameObject.FindWithTag("Enemy");
-        EnemyID enemyID = objectToDestroy.GetComponent<EnemyID>();
-        if(enemyID.id == targetId) {
-            Destroy(objectToDestroy);
-        }
-    }*/
