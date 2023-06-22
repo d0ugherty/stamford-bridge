@@ -29,13 +29,13 @@ public class PlayerAttack : MonoBehaviour
             Rigidbody2D projectileRigidbody = projectileClone.GetComponent<Rigidbody2D>();
             projectileRigidbody.velocity = projectileDirection * projectileSpeed;
 
-            Destroy(projectileClone, maxDistance / projectileSpeed);
-            StartCoroutine(ResetPlayerPhysics());
+            StartCoroutine(ResetPlayerPhysics(projectileClone));
         }
     }
 
-    private IEnumerator ResetPlayerPhysics(){
+    private IEnumerator ResetPlayerPhysics(GameObject obj){
         yield return new WaitForSeconds(maxDistance / projectileSpeed);
+        Destroy(obj, maxDistance / projectileSpeed);
         playerRigidBody.isKinematic = false;
         isAttacking = false;
     }
