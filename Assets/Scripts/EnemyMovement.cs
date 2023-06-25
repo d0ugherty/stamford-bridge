@@ -2,19 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/***    This script controls and tracks the movement of the enemy object
+**      Currently, it is a simple "move towards player" method to control the movement
+**/
 public class EnemyMovement : MonoBehaviour
 {
     public float movementSpeed = 5.0f;
     private Transform player;
+    private Vector2 lastPosition;
+    private float xMovement;
+    private float yMovement;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        lastPosition = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
+        TrackMovement();
         MoveTowardsPlayer();
     }
 
@@ -31,5 +41,13 @@ public class EnemyMovement : MonoBehaviour
 
         Vector2 movementVelocity = direction * movementSpeed;
         transform.Translate(movementVelocity * Time.deltaTime);
+    }
+
+    private void TrackMovement() {
+        Vector2 movement = (Vector2)transform.position - lastPosition;
+
+        lastPosition = transform.position;
+        xMovement = movement.x;
+        yMovement = movement.y;
     }
 }
