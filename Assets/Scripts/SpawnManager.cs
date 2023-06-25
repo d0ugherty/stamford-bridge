@@ -2,29 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnEnemies : MonoBehaviour
+public class SpawnManager : MonoBehaviour
 {
     public float rate;
     public float setrate;
     public float difficulty;
-    int count = 0;
     public GameObject enemy;
     public Transform min;
     public Transform max;
+
+    private int maxEnemies;
+    public int currentEnemies;
 
     // Start is called before the first frame update
     void Awake()
     {
         setrate = rate;
+        maxEnemies = 6;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (count < 5) {
+        if(currentEnemies < maxEnemies) {
             Spawn();
-            count++;
         }
+       
     }
     /** Spawn enemies 
     **  I should really learn how how this acutally works with the difficulty stuff
@@ -45,6 +48,12 @@ public class SpawnEnemies : MonoBehaviour
         } else {
             difficulty += difficulty;
         }
+        currentEnemies++;
+    }
+
+    public void SetCurrentEnemies(int number){
+        currentEnemies += number;
+        Debug.Log("Current enemies: " + currentEnemies);
     }
 
     /** Generate a unique ID for each enemy object

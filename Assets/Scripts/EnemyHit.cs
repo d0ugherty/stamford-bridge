@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyHit : MonoBehaviour
 {
     public Material defaultSprite;
-    public Collider2D enemy;
+    //public Collider2D enemy;
     public Material flashMaterial;
     private float flashDuration;
     private int flashCount;

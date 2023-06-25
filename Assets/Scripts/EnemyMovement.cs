@@ -11,8 +11,8 @@ public class EnemyMovement : MonoBehaviour
     public float movementSpeed = 5.0f;
     private Transform player;
     private Vector2 lastPosition;
-    private float xMovement;
-    private float yMovement;
+    public float xMovement;
+    public float yMovement;
 
     // Start is called before the first frame update
     void Start()
