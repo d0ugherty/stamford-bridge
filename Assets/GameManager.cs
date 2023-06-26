@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         GameOver();
+        
     }
 
     public void SetScore(int pts){ 
