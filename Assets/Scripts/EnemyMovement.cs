@@ -11,6 +11,8 @@ public class EnemyMovement : MonoBehaviour
     public float movementSpeed = 5.0f;
     private Transform player;
     private Vector2 lastPosition;
+    public Transform bridgeOtherSide;
+    public Transform destroyZone;
     public float xMovement;
     public float yMovement;
 
@@ -18,6 +20,8 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        //bridgeOtherSide = GameObject.FindGameObjectWithTag("Other Side").transform;
+        destroyZone = GameObject.FindGameObjectWithTag("Destroy Zone").transform;
         lastPosition = transform.position;
     }
 
@@ -25,7 +29,8 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         TrackMovement();
-        MoveTowardsPlayer();
+        //MoveTowardsPlayer();
+        CrossBridge();
     }
 
     private void MoveTowardsPlayer() {
@@ -40,6 +45,18 @@ public class EnemyMovement : MonoBehaviour
         direction.Normalize();
 
         Vector2 movementVelocity = direction * movementSpeed;
+        transform.Translate(movementVelocity * Time.deltaTime);
+    }
+
+    private void CrossBridge(){
+        Vector2 enemyPosition = transform.position;
+        Vector2 destroyPos = destroyZone.position;
+        Vector2 direction = destroyPos - enemyPosition;
+
+        direction.Normalize();
+
+        Vector2 movementVelocity = direction * movementSpeed;
+
         transform.Translate(movementVelocity * Time.deltaTime);
     }
 
