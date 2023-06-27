@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHit : MonoBehaviour
+public class Flash: MonoBehaviour
 {
     public Material defaultSprite;
     //public Collider2D enemy;
@@ -10,21 +10,21 @@ public class EnemyHit : MonoBehaviour
     private float flashDuration;
     private int flashCount;
 
-    private Renderer objectRenderer;
+    //private Renderer objectRenderer;
     // Start is called before the first frame update
     private void Start()
     {
-        objectRenderer = GetComponent<Renderer>();
+        //objectRenderer = GetComponent<Renderer>();
         flashDuration = 0.2f;
         flashCount = 3;
     }
 
     /* Call co routine to flash when taking a hit */
-    public void TakeHit() {
-        StartCoroutine(FlashRed());
+    public void TakeHit(Renderer objectRenderer) {
+        StartCoroutine(FlashRed(objectRenderer));
     }
 
-    private IEnumerator FlashRed() {
+    private IEnumerator FlashRed(Renderer objectRenderer) {
         for(int i = 0; i < flashCount; i++) {
             objectRenderer.material = flashMaterial;
             yield return new WaitForSeconds(flashDuration);

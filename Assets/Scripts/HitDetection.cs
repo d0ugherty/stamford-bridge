@@ -9,7 +9,10 @@ public class HitDetection : MonoBehaviour
     public GameManager gameManager;
     public SpawnManager spawnManager;
     private EnemyMovement enemyMovement;
-    private EnemyHit enemyHit;
+    private Flash flash;
+    public Renderer enemyRenderer;
+
+    
     //public Collider2D enemyCollider;
     //public Collider2D playerHitZone;
 
@@ -25,10 +28,11 @@ public class HitDetection : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other){
         if (other.CompareTag("Enemy")){
             enemyMovement = other.gameObject.GetComponent<EnemyMovement>();
+            enemyRenderer = other.gameObject.GetComponent<Renderer>();
             enemyMovement.movementSpeed = 0;
-            enemyHit = other.gameObject.GetComponent<EnemyHit>();
+            flash = other.gameObject.GetComponent<Flash>();
     
-            enemyHit.TakeHit();
+            flash.TakeHit(enemyRenderer);
             DestroyEnemyObject(other.gameObject);
         }
     }
