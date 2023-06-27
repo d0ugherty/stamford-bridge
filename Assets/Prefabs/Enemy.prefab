@@ -170,7 +170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSprite: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  enemy: {fileID: 0}
   flashMaterial: {fileID: 2100000, guid: da0b1b74df52655f9b7f2cd4bf36be1b, type: 2}
 --- !u!114 &584772865466859085
 MonoBehaviour:
@@ -184,4 +183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87f6b8aaa2959972dafe814691ab0208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
+  movementSpeed: 2
+  bridgeOtherSide: {fileID: 0}
+  destroyZone: {fileID: 0}
+  xMovement: 0
+  yMovement: 0

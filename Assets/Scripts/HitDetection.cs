@@ -8,6 +8,11 @@ public class HitDetection : MonoBehaviour
 {
     public GameManager gameManager;
     public SpawnManager spawnManager;
+    private EnemyMovement enemyMovement;
+    private EnemyHit enemyHit;
+    //public Collider2D enemyCollider;
+    //public Collider2D playerHitZone;
+
     //public string objectToDestroy = "Enemy";
 
     // Start is called before the first frame update
@@ -19,12 +24,17 @@ public class HitDetection : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other){
         if (other.CompareTag("Enemy")){
+            enemyMovement = other.gameObject.GetComponent<EnemyMovement>();
+            enemyMovement.movementSpeed = 0;
+            enemyHit = other.gameObject.GetComponent<EnemyHit>();
+    
+            enemyHit.TakeHit();
             DestroyEnemyObject(other.gameObject);
         }
     }
 
     private void DestroyEnemyObject(GameObject enemy) {
-        float delay = 0.275f;
+        float delay = 0.2f;
         Debug.Log("DestroyEnemyObject called");
         //Destroy(enemy, delay);
 
@@ -36,7 +46,7 @@ public class HitDetection : MonoBehaviour
         if(enemy!= null){
             Debug.Log("Updating currentEnemies");
             spawnManager.SetCurrentEnemies(-1); // Decrease the currentEnemies count
-            gameManager.SetScore(5);
+            gameManager.SetScore(1);
             Destroy(enemy);
         }
     }

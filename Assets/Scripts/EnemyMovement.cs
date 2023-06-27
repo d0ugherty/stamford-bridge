@@ -8,7 +8,7 @@ using UnityEngine;
 **/
 public class EnemyMovement : MonoBehaviour
 {
-    public float movementSpeed = 3.0f;
+    public float movementSpeed;
     private Transform player;
     private Vector2 lastPosition;
     public Transform bridgeOtherSide;

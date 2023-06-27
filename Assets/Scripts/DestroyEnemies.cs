@@ -21,7 +21,7 @@ public class DestroyEnemies : MonoBehaviour
     }
 
     private void DestroyEnemyObject(GameObject enemy) {
-        float delay = 0.2f;
+        float delay = 0.5f;
         Debug.Log("DestroyEnemyObject called");
         //Destroy(enemy, delay);
 

@@ -16,7 +16,7 @@ public class EnemyHit : MonoBehaviour
     {
         objectRenderer = GetComponent<Renderer>();
         flashDuration = 0.2f;
-        flashCount = 4;
+        flashCount = 3;
     }
 
     /* Call co routine to flash when taking a hit */
