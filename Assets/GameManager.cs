@@ -2,13 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public int score;
-    public Text scoreText;
+    public TextMeshProUGUI scoreText;
     public int enemiesCrossed;
-    public Text enemiesCrossedTxt;
+    public TextMeshProUGUI enemiesCrossedTxt;
+    public 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +25,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GameOver();
+        if(enemiesCrossed >= 15) {
+            GameOver();
+        }
         
     }
 
@@ -40,10 +46,10 @@ public class GameManager : MonoBehaviour
     }
 
     private void UpdateCrossedTxt(){
-        enemiesCrossedTxt.text = enemiesCrossed + " English have crossed the bridge!";
+        enemiesCrossedTxt.text = "Foemen Crossed: " + enemiesCrossed;
     }
 
     private void GameOver(){
-
+        SceneManager.LoadScene("MainMenu");
     }
 }
