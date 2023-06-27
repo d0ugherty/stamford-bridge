@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     }
 
     private void UpdateScoreText(){
-        scoreText.text = "Score: " + score;
+        scoreText.text = "Foemen Hewed: " + score;
     }
 
     private void UpdateCrossedTxt(){

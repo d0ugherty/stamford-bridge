@@ -18,7 +18,7 @@ public class SpawnManager : MonoBehaviour
     void Awake()
     {
         setrate = rate;
-        maxEnemies = 6;
+        maxEnemies = 4;
     }
 
     // Update is called once per frame
