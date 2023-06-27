@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c2a84a51f23ba5d6b9337d7537a8376c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Satans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4127664b58a4f61b2b1e32c3efdbe57f, type: 3}
+  - {fileID: 12800000, guid: 21f8bf0733145a8b9983135795105ccf, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

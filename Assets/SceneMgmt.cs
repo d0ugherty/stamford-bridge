@@ -7,6 +7,11 @@ using UnityEngine.SceneManagement;
 public class SceneMgmt : MonoBehaviour
 {
     public static SceneMgmt instance;
+
+    public enum Scene{
+        BridgeScene,
+        MainMenu
+    }
     // Start is called before the first frame update
     void Awake()
     {
@@ -18,5 +23,21 @@ public class SceneMgmt : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void LoadScene(Scene scene){
+        SceneManager.LoadScene(scene.ToString());
+    }
+
+    public void LoadNewGame(){
+        SceneManager.LoadScene(Scene.BridgeScene.ToString());
+    }
+
+    public void LoadMainMenu(){
+        SceneManager.LoadScene(Scene.MainMenu.ToString());
+    }
+
+    public void LoadNextScene(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
