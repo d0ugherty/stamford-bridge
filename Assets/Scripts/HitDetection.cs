@@ -30,8 +30,8 @@ public class HitDetection : MonoBehaviour
             enemyMovement = other.gameObject.GetComponent<EnemyMovement>();
             enemyRenderer = other.gameObject.GetComponent<Renderer>();
             enemyMovement.movementSpeed = 0;
+            
             flash = other.gameObject.GetComponent<Flash>();
-    
             flash.TakeHit(enemyRenderer);
             DestroyEnemyObject(other.gameObject);
         }

@@ -7,11 +7,13 @@ public class SpawnManager : MonoBehaviour
     public float rate;
     public float setrate;
     public float difficulty;
-    public GameObject enemy;
+    public GameObject enemy_run;
+    public GameObject enemy_atk;
     public Transform min;
     public Transform max;
 
     private int maxEnemies;
+    private float value;
     public int currentEnemies;
 
     // Start is called before the first frame update
@@ -25,30 +27,43 @@ public class SpawnManager : MonoBehaviour
     void Update()
     {
         if(currentEnemies < maxEnemies) {
-            Spawn();
+            value = Random.Range(0f,1f);
+            Spawn(value);
         }
        
     }
+
     /** Spawn enemies 
-    **  I should really learn how how this acutally works with the difficulty stuff
+    **  If the random value is greater than .5, an enemy runner will spawn
+    **  If it is less than or equal to 0.5, an enemy attackeer will spawn
     **/
-    void Spawn() {
+    void Spawn(float value) {
         float randomPosX = Random.Range(min.position.x, max.position.x);
         float randomPosY = Random.Range(min.position.y, max.position.y);
         Vector3 randomPos = new Vector3(randomPosX, randomPosY, transform.position.z);
     
-        GameObject clone = Instantiate(enemy, randomPos, Quaternion.identity);
-        int id = GenerateId();
-        clone.name = "Enemy_" + id;
-        //automatically attach the EnemyID script containing a unique id
-        clone.AddComponent<EnemyID>().SetId(id);
-        
-        if (difficulty >= setrate / 2) {
+        if(value > 0.5) {
+            GameObject clone = Instantiate(enemy_run, randomPos, Quaternion.identity);
+            clone.tag = "Enemy";
+
+            clone.AddComponent<EnemyType>().SetType("Runner");
+            clone.name = "Enemy_" + clone.GetType();
+            currentEnemies++;
+
+        } else { 
+            GameObject clone = Instantiate(enemy_atk, randomPos, Quaternion.identity);
+            clone.tag = "Enemy";
+    
+            clone.AddComponent<EnemyType>().SetType("Fighter");
+            clone.name = "Enemy_" + clone.GetType();
+            currentEnemies++;
+        }
+
+        /*if (difficulty >= setrate / 2) {
             difficulty = setrate / 2;
         } else {
             difficulty += difficulty;
-        }
-        currentEnemies++;
+        }*/
     }
 
     public void SetCurrentEnemies(int number){

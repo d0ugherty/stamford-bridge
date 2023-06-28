@@ -171,7 +171,8 @@ MonoBehaviour:
   rate: 1
   setrate: 1
   difficulty: 1
-  enemy: {fileID: 5269347720850402379, guid: f00daf6ee2aab801e81dc7549cb66a1b, type: 3}
+  enemy_run: {fileID: 3412369615018631196, guid: bccee5f3b5e120c999d96cc2fd1182ea, type: 3}
+  enemy_atk: {fileID: 4977832681950512926, guid: d950e07b7a3df74b69d40e74c8bd2c99, type: 3}
   min: {fileID: 265072699}
   max: {fileID: 1094042389}
   currentEnemies: 0
@@ -11660,7 +11661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -604.8272, y: 273.55}
+  m_AnchoredPosition: {x: -550, y: 273.55}
   m_SizeDelta: {x: 400.3496, y: 49.996}
   m_Pivot: {x: 0.16279903, y: 0.99999994}
 --- !u!114 &1951159293

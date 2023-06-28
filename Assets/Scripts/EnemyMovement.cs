@@ -11,17 +11,18 @@ public class EnemyMovement : MonoBehaviour
     public float movementSpeed;
     private Transform player;
     private Vector2 lastPosition;
-    public Transform bridgeOtherSide;
-    public Transform destroyZone;
+    private GameObject enemy;
+    private Transform destroyZone;
     public float xMovement;
     public float yMovement;
+    private string type;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        //bridgeOtherSide = GameObject.FindGameObjectWithTag("Other Side").transform;
         destroyZone = GameObject.FindGameObjectWithTag("Destroy Zone").transform;
+        type = gameObject.GetComponent<EnemyType>().GetType();
         lastPosition = transform.position;
     }
 
@@ -29,11 +30,22 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         TrackMovement();
-        //MoveTowardsPlayer();
-        CrossBridge();
+        Move();
+
     }
 
+    private void Move(){
+         if(type == "Fighter") {
+            MoveTowardsPlayer();
+        } else if(type == "Runner"){
+            CrossBridge();
+        }
+    }
+
+    /** Moves the enemy object towards the player's current positon
+    **/
     private void MoveTowardsPlayer() {
+        
         if (player == null) {
             return;
         }
@@ -46,8 +58,12 @@ public class EnemyMovement : MonoBehaviour
 
         Vector2 movementVelocity = direction * movementSpeed;
         transform.Translate(movementVelocity * Time.deltaTime);
+     
     }
 
+    /** Moves the enemy object towards a destroy zone
+    **  at the other end of the bridge
+    **/
     private void CrossBridge(){
         Vector2 enemyPosition = transform.position;
         Vector2 destroyPos = destroyZone.position;
@@ -60,7 +76,9 @@ public class EnemyMovement : MonoBehaviour
         transform.Translate(movementVelocity * Time.deltaTime);
     }
 
-    private void TrackMovement() {
+    /** Stores the last position of the enemy objec
+    **/
+        private void TrackMovement() {
         Vector2 movement = (Vector2)transform.position - lastPosition;
 
         lastPosition = transform.position;

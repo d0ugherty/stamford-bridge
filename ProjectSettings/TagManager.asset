@@ -8,6 +8,8 @@ TagManager:
   - Projectile
   - Other Side
   - Destroy Zone
+  - Runner
+  - Fighter
   layers:
   - Default
   - TransparentFX

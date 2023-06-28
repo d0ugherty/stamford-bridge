@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyID : MonoBehaviour
+public class EnemyType : MonoBehaviour
 {
-    public int id;
+    public string type;
 
-    public void SetId(int newId){
-        id = newId;
+    public void SetType(string typStr){
+        type = typStr;
     }
     
-    public int GetId(){
-        return id;
+    public string GetType(){
+        return type;
     }
 
 }
