@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4977832681950512923}
   - component: {fileID: 6654068692464876298}
   - component: {fileID: 879516557463579479}
+  - component: {fileID: 4231897396042519926}
   m_Layer: 0
   m_Name: Fighter
   m_TagString: Enemy
@@ -186,3 +187,17 @@ MonoBehaviour:
   movementSpeed: 2
   xMovement: 0
   yMovement: 0
+--- !u!114 &4231897396042519926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4977832681950512926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23177cf5856cf2a3ba7f736b0dfacd9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  enemy: {fileID: 0}

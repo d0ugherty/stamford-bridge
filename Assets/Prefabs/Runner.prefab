@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3412369615018631193}
   - component: {fileID: 3897861483607006216}
   - component: {fileID: 7384592498880466005}
+  - component: {fileID: -2029609624919396256}
   m_Layer: 0
   m_Name: Runner
   m_TagString: Enemy
@@ -186,3 +187,17 @@ MonoBehaviour:
   movementSpeed: 2
   xMovement: 0
   yMovement: 0
+--- !u!114 &-2029609624919396256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3412369615018631196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23177cf5856cf2a3ba7f736b0dfacd9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  enemy: {fileID: 0}

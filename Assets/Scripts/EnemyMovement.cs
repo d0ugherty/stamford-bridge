@@ -34,6 +34,16 @@ public class EnemyMovement : MonoBehaviour
 
     }
 
+    void OnCollision2DEnter(Collision2D collision){
+        if(collision.gameObject.CompareTag("Player")){
+            //isMoving = false;
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            if(rb != null){
+                rb.velocity  = Vector2.zero;
+            }
+        }
+    }
+
     private void Move(){
          if(type == "Fighter") {
             MoveTowardsPlayer();
@@ -52,13 +62,13 @@ public class EnemyMovement : MonoBehaviour
 
         Vector2 enemyPosition = transform.position;
         Vector2 playerPosition = player.position;
+        float distToTarget = Vector2.Distance(enemyPosition, playerPosition);
 
         Vector2 direction = playerPosition - enemyPosition;
         direction.Normalize();
 
         Vector2 movementVelocity = direction * movementSpeed;
         transform.Translate(movementVelocity * Time.deltaTime);
-     
     }
 
     /** Moves the enemy object towards a destroy zone
