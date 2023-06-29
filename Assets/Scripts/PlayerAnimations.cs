@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Animations : MonoBehaviour
+public class PlayerAnimations : MonoBehaviour
 {
     public Animator animator;
     public float horizontalInput;

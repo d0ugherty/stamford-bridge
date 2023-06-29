@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAnimations : MonoBehaviour
+public class EnemyMoveAnimations : MonoBehaviour
 {
 
     public Animator animator;
     public GameObject enemy;
     private EnemyMovement enemyMovement;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,8 @@ public class EnemyAnimations : MonoBehaviour
     {
         if(IsWalking()) {
             Walk();
-        }    
+        }
+
     }
 
     /** Detect movement of enemy object
@@ -45,5 +47,4 @@ public class EnemyAnimations : MonoBehaviour
         animator.SetFloat("YInput", enemyMovement.yMovement);
 
     }
-
 }

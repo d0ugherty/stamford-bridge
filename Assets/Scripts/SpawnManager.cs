@@ -36,6 +36,9 @@ public class SpawnManager : MonoBehaviour
     /** Spawn enemies 
     **  If the random value is greater than .5, an enemy runner will spawn
     **  If it is less than or equal to 0.5, an enemy attackeer will spawn
+    **  
+    **  Runners will move straight towards the other side of the bridge
+    **  Fighters will move towards and engage the player
     **/
     void Spawn(float value) {
         float randomPosX = Random.Range(min.position.x, max.position.x);

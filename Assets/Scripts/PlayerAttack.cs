@@ -9,14 +9,12 @@ public class PlayerAttack : MonoBehaviour
     public GameObject player;
     private GameObject clone;
     private bool isFacingRight;
-    private Rigidbody2D playerRigidBody;
     public PlayerInput playerInput;
     private float horizontalInput;
     private float verticalInput;
     private Animator animator;
 
     private void Start() {
-        playerRigidBody = GetComponent<Rigidbody2D>();
         isFacingRight = true;
         animator = player.GetComponent<Animator>();
     }
@@ -28,6 +26,11 @@ public class PlayerAttack : MonoBehaviour
         //Debug.Log("is facing right " + isFacingRight);
         Attack();
     }
+
+    /** Registers space key press and sets the trigger for the player's
+    *** attack animation. It also instantiates the hit zone collider
+    **
+    **/
 
     private void Attack() {
         if (Keyboard.current.spaceKey.wasPressedThisFrame) {
@@ -81,39 +84,3 @@ public class PlayerAttack : MonoBehaviour
         StartCoroutine(DelayTriggerReset(triggerName));
     }
 }
-
-
-
-
-
-/*private IEnumerator ResetPlayerPhysics(){
-        yield return new WaitForSeconds(0.5f);
-        //Destroy(obj, maxDistance / projectileSpeed);
-        playerRigidBody.isKinematic = false;
-        isAttacking = false;
-    }
-
-    playerRigidBody.isKinematic = true;
-
-            Vector2 projectileDirection =  isFacingRight ? Vector2.right : Vector2.left;
-
-            GameObject clone = Instantiate(projectilePrefab, m_SpawnTransform.position, Quaternion.identity);
-            if (isFacingRight) {
-                clone.transform.right = transform.right.normalized;
-            } else {
-                //clone.transform.left = transform.left.normalized;
-            }
-            
-            //Rigidbody2D projectileRigidbody = projectileClone.GetComponent<Rigidbody2D>();
-            //projectileRigidbody.velocity = projectileDirection * projectileSpeed;
-
-            //Debug.Log("isFacingRight: " + isFacingRight);
-           // Debug.Log("projectileDirection: " + projectileDirection);
-            //Debug.Log(movementInput.x);
-
-
-            StartCoroutine(ResetPlayerPhysics());
-        }*/
-
-
-
