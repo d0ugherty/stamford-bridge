@@ -13,9 +13,15 @@ public class EnemyMovement : MonoBehaviour
     private Vector2 lastPosition;
     private GameObject enemy;
     private Transform destroyZone;
+    private Rigidbody2D rb;
+    //tracking
     public float xMovement;
+    public float lastXMovement;
     public float yMovement;
     private string type;
+    private Vector2 enemyPosition;
+    private Vector2 playerPosition;
+    public float distToPlayer;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +30,7 @@ public class EnemyMovement : MonoBehaviour
         destroyZone = GameObject.FindGameObjectWithTag("Destroy Zone").transform;
         type = gameObject.GetComponent<EnemyType>().GetType();
         lastPosition = transform.position;
+        rb = gameObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -38,7 +45,7 @@ public class EnemyMovement : MonoBehaviour
     *** player when colliding. Looks kind of janky at the moment
     **  
     **/
-    void OnCollision2DEnter(Collision2D collision){
+    /*void OnCollision2DEnter(Collision2D collision){
         if(collision.gameObject.CompareTag("Player")){
             //isMoving = false;
             Rigidbody2D rb = GetComponent<Rigidbody2D>();
@@ -46,7 +53,7 @@ public class EnemyMovement : MonoBehaviour
                 rb.velocity  = Vector2.zero;
             }
         }
-    }
+    }*/
 
     private void Move(){
          if(type == "Fighter") {
@@ -64,22 +71,24 @@ public class EnemyMovement : MonoBehaviour
             return;
         }
 
-        Vector2 enemyPosition = transform.position;
-        Vector2 playerPosition = player.position;
-        float distToTarget = Vector2.Distance(enemyPosition, playerPosition);
+        enemyPosition = transform.position;
+        playerPosition = player.position;
+        distToPlayer = Vector2.Distance(enemyPosition, playerPosition);
+        
+        IsInAtkDistance();
 
         Vector2 direction = playerPosition - enemyPosition;
         direction.Normalize();
 
         Vector2 movementVelocity = direction * movementSpeed;
         transform.Translate(movementVelocity * Time.deltaTime);
-    }
+        }
 
     /** Moves the enemy object towards a destroy zone
     **  at the other end of the bridge
     **/
     private void CrossBridge(){
-        Vector2 enemyPosition = transform.position;
+       enemyPosition = transform.position;
         Vector2 destroyPos = destroyZone.position;
         Vector2 direction = destroyPos - enemyPosition;
 
@@ -90,13 +99,30 @@ public class EnemyMovement : MonoBehaviour
         transform.Translate(movementVelocity * Time.deltaTime);
     }
 
+    public bool IsInAtkDistance(){
+        if(distToPlayer <= 2.0f){
+            Debug.Log("enemy object should stop");
+            //rb.velocity = Vector2.zero;
+            movementSpeed = 0.0f;
+            return true;
+        } else {
+            movementSpeed = 3.0f;
+            return false;
+        }
+    }
     /** Stores the last position of the enemy objec
     **/
-        private void TrackMovement() {
+    private void TrackMovement() {
         Vector2 movement = (Vector2)transform.position - lastPosition;
 
         lastPosition = transform.position;
         xMovement = movement.x;
         yMovement = movement.y;
+        if(xMovement != 0f){
+            lastXMovement = xMovement;
+        }
+        //if(movement.magnitude > 0){
+          //  direction = movement.normalized;
+        //}
     }
 }

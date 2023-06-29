@@ -20,7 +20,7 @@ public class SpawnManager : MonoBehaviour
     void Awake()
     {
         setrate = rate;
-        maxEnemies = 4;
+        maxEnemies = 1;
     }
 
     // Update is called once per frame
@@ -46,10 +46,16 @@ public class SpawnManager : MonoBehaviour
         Vector3 randomPos = new Vector3(randomPosX, randomPosY, transform.position.z);
     
         if(value > 0.5) {
-            GameObject clone = Instantiate(enemy_run, randomPos, Quaternion.identity);
+            /*GameObject clone = Instantiate(enemy_run, randomPos, Quaternion.identity);
             clone.tag = "Enemy";
 
             clone.AddComponent<EnemyType>().SetType("Runner");
+            clone.name = "Enemy_" + clone.GetType();
+            currentEnemies++;*/
+             GameObject clone = Instantiate(enemy_atk, randomPos, Quaternion.identity);
+            clone.tag = "Enemy";
+    
+            clone.AddComponent<EnemyType>().SetType("Fighter");
             clone.name = "Enemy_" + clone.GetType();
             currentEnemies++;
 

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6654068692464876298}
   - component: {fileID: 879516557463579479}
   - component: {fileID: 7105814796147135391}
+  - component: {fileID: 4387941881514356972}
   m_Layer: 0
   m_Name: Fighter
   m_TagString: Enemy
@@ -201,3 +202,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 4977832681950512925}
   enemy: {fileID: 0}
+--- !u!114 &4387941881514356972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4977832681950512926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21124318ebbfc30f2b65ceb02b12fa40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitzonePrefab: {fileID: 1062591953411174161, guid: 8bfb3fff3b84a273dac08b9e09d074b7, type: 3}
+  isFacingRight: 0
