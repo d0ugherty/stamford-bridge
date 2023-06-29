@@ -10,7 +10,7 @@ In Stamford Bridge, you play as a lone Viking defending the river crossing from 
 ## The Bridge
 ![image](https://github.com/d0ugherty/stamford-bridge/assets/105173634/df1c8cd0-5ef3-44f3-8651-5c29c8c1abb7)
 
-##Disclaimer
+## Disclaimer
 
 This game is made for educational purposes only. It is made with free assets and I do not claim ownership of any artwork in this game. All art including the menu background, sprites, tiles, and fonts belongs to their respective owners.
 
