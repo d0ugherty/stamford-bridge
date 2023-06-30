@@ -75,20 +75,26 @@ public class EnemyMovement : MonoBehaviour
         playerPosition = player.position;
         distToPlayer = Vector2.Distance(enemyPosition, playerPosition);
         
-        IsInAtkDistance();
-
-        Vector2 direction = playerPosition - enemyPosition;
-        direction.Normalize();
-
-        Vector2 movementVelocity = direction * movementSpeed;
-        transform.Translate(movementVelocity * Time.deltaTime);
+        if(!IsInAtkDistance()) {
+            Vector2 direction = playerPosition - enemyPosition;
+            direction.Normalize();
+            movementSpeed = 3.0f;
+            rb.velocity = Vector2.zero;
+            Vector2 movementVelocity = direction * movementSpeed;
+            transform.Translate(movementVelocity * Time.deltaTime);
+        } else {
+            Vector2 direction = playerPosition - enemyPosition;
+            movementSpeed = 0.0f;
+            Debug.Log("enemy object should stop");
+            direction.Normalize();
         }
+    }
 
     /** Moves the enemy object towards a destroy zone
     **  at the other end of the bridge
     **/
     private void CrossBridge(){
-       enemyPosition = transform.position;
+        enemyPosition = transform.position;
         Vector2 destroyPos = destroyZone.position;
         Vector2 direction = destroyPos - enemyPosition;
 
@@ -99,18 +105,20 @@ public class EnemyMovement : MonoBehaviour
         transform.Translate(movementVelocity * Time.deltaTime);
     }
 
+/** Checks distance between an enemy object and the player object
+**  Used for attack implementation, movement, and animation control
+**/
     public bool IsInAtkDistance(){
         if(distToPlayer <= 2.0f){
-            Debug.Log("enemy object should stop");
-            //rb.velocity = Vector2.zero;
-            movementSpeed = 0.0f;
             return true;
         } else {
-            movementSpeed = 3.0f;
+            //movementSpeed = 3.0f;
             return false;
         }
     }
-    /** Stores the last position of the enemy objec
+
+    /** Stores the last position of the enemy object
+    ** Used for attack implementation, movement, and animation control.
     **/
     private void TrackMovement() {
         Vector2 movement = (Vector2)transform.position - lastPosition;
@@ -118,6 +126,7 @@ public class EnemyMovement : MonoBehaviour
         lastPosition = transform.position;
         xMovement = movement.x;
         yMovement = movement.y;
+
         if(xMovement != 0f){
             lastXMovement = xMovement;
         }

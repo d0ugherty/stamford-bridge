@@ -12,15 +12,13 @@ public class EnemyAtkAnimations : MonoBehaviour
     private EnemyMovement mv;
     //for tracking
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         animator = gameObject.GetComponent<Animator>();
         mv = gameObject.GetComponent<EnemyMovement>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         animator.SetFloat("XAtkDirection", mv.lastXMovement);
         if(mv.IsInAtkDistance()){
             Attack();

@@ -15,13 +15,11 @@ public class PlayerMovement : MonoBehaviour {
         animator = GetComponent<Animator>();
     }
 
-    private void OnMove(InputValue value)
-    {
+    private void OnMove(InputValue value){
         movementInput = value.Get<Vector2>();
     }
 
-    private void Update()
-    {
+    private void Update(){
         Move();
         UpdateAnimation();
     }
@@ -31,19 +29,15 @@ public class PlayerMovement : MonoBehaviour {
         transform.Translate(movement, Space.World);
     }
 
-     private void UpdateAnimation()
-    {
-        if (movementInput.x != 0 || movementInput.y != 0)
-        {
+    /**Fixes animation jank**/
+     private void UpdateAnimation() {
+        if (movementInput.x != 0 || movementInput.y != 0){
             lastMovementInput = movementInput;
         }
 
-        if (lastMovementInput.x < 0)
-        {
+        if (lastMovementInput.x < 0){
             animator.SetBool("isMovingLeft", true);
-        }
-        else
-        {
+        } else {
             animator.SetBool("isMovingLeft", false);
         }
     }

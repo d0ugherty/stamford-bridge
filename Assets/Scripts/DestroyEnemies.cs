@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/** Script for the off-camera destroy zone
+*** Destroyes enemy objects after they cross the bridge
+ **/
+
 public class DestroyEnemies : MonoBehaviour
 {
     private GameManager gameManager;
@@ -23,7 +28,6 @@ public class DestroyEnemies : MonoBehaviour
     private void DestroyEnemyObject(GameObject enemy) {
         float delay = 0.5f;
         Debug.Log("DestroyEnemyObject called");
-        //Destroy(enemy, delay);
 
         StartCoroutine(UpdateCurrentEnemies(delay, enemy));
     }
