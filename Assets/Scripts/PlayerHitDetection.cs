@@ -37,6 +37,9 @@ public class PlayerHitDetection : MonoBehaviour
         }
     }
 
+    /** Forces an enemy backwards when it is hit by the player 
+    **
+    **/
     private void PushEnemy(Collider2D other){
         Vector2 playerPosition = transform.position; 
         Vector2 enemyPosition = other.transform.position;
@@ -44,10 +47,11 @@ public class PlayerHitDetection : MonoBehaviour
         Rigidbody2D enemyRigidbody = other.gameObject.GetComponent<Rigidbody2D>();
 
         float pushForce = 10f;
-         
+
         enemyRigidbody.AddForce(pushDirection * pushForce, ForceMode2D.Impulse);
     }
 
+    
     private void DestroyEnemyObject(GameObject enemy) {
         float delay = 0.2f;
         Debug.Log("DestroyEnemyObject called");

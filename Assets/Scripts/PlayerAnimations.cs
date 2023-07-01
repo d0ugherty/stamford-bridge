@@ -5,20 +5,43 @@ using UnityEngine.InputSystem;
 public class PlayerAnimations : MonoBehaviour
 {
     public Animator animator;
-    public float horizontalInput;
-    public float verticalInput;
-    private Vector2 movementInput;
+    public InputAction attackAction;
+    public InputAction blockAction;
+    private PlayerInput playerInput;
+    public Vector2 movementInput;
+
+
+    private void Awake() {
+        //playerInput = GetComponent<PlayerInput>();
+        //movementInput = GetComponent<PlayerMovement>().movementInput;
+    }
 
     private void Update() {
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+        movementInput = GetComponent<PlayerMovement>().movementInput;
 
-        // if player is moving, play walking animation
         if(IsWalking()) {
             Walk();
-        } 
-        //IsPlayerAttacking();
+        }
+        if(attackAction.triggered) { 
+            Debug.Log("Action Variable triggered");
+            Attack();
+        }
+
+        if(blockAction.triggered) {
+            Debug.Log("block action triggered");
+            Block();
+        }
         
+    }
+
+    private void OnEnable() {
+        attackAction.Enable();
+        blockAction.Enable();
+    }
+
+    private void OnDisable() {
+        attackAction.Disable();
+        blockAction.Disable();
     }
 
     /** Detect vertical and horizontal input
@@ -26,7 +49,7 @@ public class PlayerAnimations : MonoBehaviour
     **  otherwise returns false
     */
     private bool IsWalking(){
-       if (horizontalInput != 0f || verticalInput != 0f) {
+       if (movementInput != Vector2.zero) {
             animator.SetBool("IsWalking", true);
             return true;
        } else {
@@ -39,31 +62,29 @@ public class PlayerAnimations : MonoBehaviour
      **
      **/
     void Walk() {
-        animator.SetFloat("Xinput", horizontalInput);
-        animator.SetFloat("Yinput", verticalInput);
-
-        movementInput = new Vector2(horizontalInput, verticalInput);
+        animator.SetFloat("Xinput", movementInput.x);
+        animator.SetFloat("Yinput", movementInput.y);
     }
 
     /** Check if the space key is being pressed
      **  if so, trigger the attack animation
      **/
-    private void IsPlayerAttacking() {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame){
-            animator.SetTrigger("PlayerAttack");
-            //ResetTriggerDelayed("PlayerAttack");
-            //return true;
-        } else {
-            //return false;
-        }
+    private void Attack() {
+        animator.SetTrigger("PlayerAttack");
+        ResetTriggerDelayed("PlayerAttack");
     }
+
+    private void Block() {
+        
+        animator.SetTrigger("Block");
+}
 
     /** Coroutine & method to invoke the coroutine to delay the trigger reset
     **  if ResetTrigger() is called without a delay, the 
     ** the attack trigger is reset before the animation can play
     */
     private IEnumerator DelayTriggerReset(string triggerName){
-        while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 0.5f) {
+        while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f) {
                 yield return null;
         }
         animator.ResetTrigger(triggerName);

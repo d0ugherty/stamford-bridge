@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour {
     
     public float speed;
     public Animator animator;
-    private Vector2 movementInput;
+    public Vector2 movementInput;
     private Vector2 lastMovementInput;
 
 
