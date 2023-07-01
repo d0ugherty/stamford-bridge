@@ -51,7 +51,7 @@ public class PlayerAnimations : MonoBehaviour
     private void IsPlayerAttacking() {
         if (Keyboard.current.spaceKey.wasPressedThisFrame){
             animator.SetTrigger("PlayerAttack");
-            ResetTriggerDelayed("PlayerAttack");
+            //ResetTriggerDelayed("PlayerAttack");
             //return true;
         } else {
             //return false;

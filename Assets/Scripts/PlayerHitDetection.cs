@@ -42,7 +42,9 @@ public class PlayerHitDetection : MonoBehaviour
         Vector2 enemyPosition = other.transform.position;
         Vector2 pushDirection = (enemyPosition - playerPosition).normalized;
         Rigidbody2D enemyRigidbody = other.gameObject.GetComponent<Rigidbody2D>();
-        float pushForce = 10f; 
+
+        float pushForce = 10f;
+         
         enemyRigidbody.AddForce(pushDirection * pushForce, ForceMode2D.Impulse);
     }
 

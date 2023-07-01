@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9935ab8843aec9fd89fa2be471503b23
+guid: 1b52c327d8f2c17e09bf1cb1d5e9f3d3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,10 +117,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Viking-Sheet_0
+      name: Viking-Sheet_left_0
       rect:
         serializedVersion: 2
-        x: 40
+        x: 617
         y: 1945
         width: 33
         height: 46
@@ -131,17 +131,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 037b27d7b26b9d14d9d103e6af854e78
-      internalID: -1642748320
+      spriteID: ef2c60add4f969506985fcb096338850
+      internalID: -238947188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_1
+      name: Viking-Sheet_left_1
       rect:
         serializedVersion: 2
-        x: 155
+        x: 732
         y: 1945
         width: 33
         height: 45
@@ -152,17 +152,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 104b7cf6c3f3323e0bc071d0026a198a
-      internalID: 191767497
+      spriteID: 4101579e08698a85ba874d92305138d6
+      internalID: 790900752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_2
+      name: Viking-Sheet_left_2
       rect:
         serializedVersion: 2
-        x: 270
+        x: 847
         y: 1945
         width: 33
         height: 44
@@ -173,38 +173,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8864aaf8327480049e8145ba7e94c09
-      internalID: -1278906027
+      spriteID: 71d573c2782d7303a81e8aab1d0d6ffc
+      internalID: -1806194193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_3
+      name: Viking-Sheet_left_3
       rect:
         serializedVersion: 2
-        x: 385
-        y: 1945
-        width: 33
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfc7df94842dbca6ba2c143d731a2c76
-      internalID: 1476836937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 500
+        x: 962
         y: 1945
         width: 33
         height: 43
@@ -215,17 +194,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a32a75c3d0f711f086289c2db1f12e5
-      internalID: -992215560
+      spriteID: dd3ffb95781b297de8ebbca2e9392c35
+      internalID: -1496523498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_5
+      name: Viking-Sheet_left_4
       rect:
         serializedVersion: 2
-        x: 615
+        x: 1077
         y: 1945
         width: 33
         height: 44
@@ -236,17 +215,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cce825a4d3e7d840a80f8c9e7185538b
-      internalID: -1194190804
+      spriteID: 023a545f68a2917b5abc750c21eee478
+      internalID: -1104037539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_6
+      name: Viking-Sheet_left_5
       rect:
         serializedVersion: 2
-        x: 730
+        x: 1192
+        y: 1945
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8710acf5d1d59f124a2bf8f59b9f14fa
+      internalID: -1834814952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_6
+      rect:
+        serializedVersion: 2
+        x: 1307
         y: 1945
         width: 33
         height: 45
@@ -257,17 +257,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3358fc661436cd9009e8e37a04f89d5b
-      internalID: 854287926
+      spriteID: 8ecef80a15c557b4989d94968296569c
+      internalID: 1493534836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_7
+      name: Viking-Sheet_left_7
       rect:
         serializedVersion: 2
-        x: 845
+        x: 1422
         y: 1945
         width: 33
         height: 46
@@ -278,164 +278,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d2652fab1ad90544a0961619eebccf6
-      internalID: 1958140103
+      spriteID: 04432561f057427f3bf7680d2e068423
+      internalID: -2051167854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_8
+      name: Viking-Sheet_left_8
       rect:
         serializedVersion: 2
-        x: 44
-        y: 1861
-        width: 26
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0a4b7be97c89a0e8b1ba9244747ba84
-      internalID: -353000010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 1861
-        width: 27
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5461b97755e7d5d4ad93524e4948415
-      internalID: -893075439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 1861
-        width: 30
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb45923a0d0eeb9cebafed71273cfc40
-      internalID: 144781207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 1861
-        width: 31
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f3eaadedf62c23dcaf35c3353ebb694
-      internalID: -813388772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 1861
-        width: 33
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c12463fc9aedc1469389eb58c4076f4
-      internalID: 1915885533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 1861
-        width: 31
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ede5fdd93fed863bbbe0a84a62f1cb3d
-      internalID: 470938276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 732
-        y: 1861
-        width: 30
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12282f4ba0d489144986795bf6411e68
-      internalID: -2067455284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_15
-      rect:
-        serializedVersion: 2
-        x: 848
+        x: 619
         y: 1861
         width: 28
         height: 45
@@ -446,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81d6226abc491552db98e8b2f02a245a
-      internalID: 565807469
+      spriteID: fd2af35ba7537616287adf28f8883c3f
+      internalID: -2039436892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_16
+      name: Viking-Sheet_left_9
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1779
-        width: 35
-        height: 41
+        x: 733
+        y: 1861
+        width: 30
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,17 +320,143 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2115db0120863e9b2abd976e83f4b965
-      internalID: 1958129498
+      spriteID: 275e2abb99bd633ea87be9c86e1d6f36
+      internalID: -2144280961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_17
+      name: Viking-Sheet_left_10
       rect:
         serializedVersion: 2
-        x: 157
+        x: 848
+        y: 1861
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9123dfcfe1cc6a9f831333ee279f963
+      internalID: 933909577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_11
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1861
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb796106fe1498c9a909b57e87d47bd2
+      internalID: -974077254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_12
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1861
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ca8c9f5dc089f2cb09a741643c1338
+      internalID: -1439706403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_13
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1861
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666042f33fb5530d9bace001d00182d1
+      internalID: 854818573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_14
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1861
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f230220c8b10b871ad4d8e158e98734
+      internalID: 1020551780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_15
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1861
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3dcc04e0cc858b1aa78cccbc953cb4
+      internalID: -1754362240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_16
+      rect:
+        serializedVersion: 2
+        x: 614
         y: 1777
         width: 34
         height: 42
@@ -488,17 +467,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 831b45ca8cf755e0ba51dd6278c73baa
-      internalID: -702843080
+      spriteID: 080d6bd648950f319a2346c9fad283dc
+      internalID: -1273520170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_18
+      name: Viking-Sheet_left_17
       rect:
         serializedVersion: 2
-        x: 275
+        x: 730
         y: 1777
         width: 30
         height: 41
@@ -509,59 +488,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 895c763a305496608aa75d8c1b073b9f
-      internalID: 148542042
+      spriteID: 856d1d61f719c778388023a3fbf0b663
+      internalID: 1720487623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_19
+      name: Viking-Sheet_left_18
       rect:
         serializedVersion: 2
-        x: 393
-        y: 1777
-        width: 26
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a11256468c1386827980d0b4fbfc9592
-      internalID: 1294541502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_20
-      rect:
-        serializedVersion: 2
-        x: 505
-        y: 1779
-        width: 30
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f765974694dc6fd00953c9e2b832f59c
-      internalID: 204603377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_21
-      rect:
-        serializedVersion: 2
-        x: 620
+        x: 846
         y: 1777
         width: 29
         height: 42
@@ -572,17 +509,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17e5b376a5b4c1cdcb7d1e3103de2932
-      internalID: -219080213
+      spriteID: c3c709ea8f7f40dcb8c8cd768f164a90
+      internalID: 1395175259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_22
+      name: Viking-Sheet_left_19
       rect:
         serializedVersion: 2
-        x: 735
+        x: 960
+        y: 1779
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d88f42c3509aec6b6749d4d9575176
+      internalID: -1466653981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_20
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1777
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef706678bc27061079399afe2aaacd32
+      internalID: -1447990428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_21
+      rect:
+        serializedVersion: 2
+        x: 1190
         y: 1777
         width: 30
         height: 41
@@ -593,17 +572,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e7f7ee98f93f90a0a64eddb687c1990
-      internalID: -1077029401
+      spriteID: 0d0023497bec6c69394c65531a1f913f
+      internalID: 2129568361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_23
+      name: Viking-Sheet_left_22
       rect:
         serializedVersion: 2
-        x: 847
+        x: 1304
         y: 1777
         width: 34
         height: 42
@@ -614,187 +593,82 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e814868a28df161f88843ceb12509e93
-      internalID: 342066333
+      spriteID: 29b5927f6b08a375e90afc4dfd7d768e
+      internalID: 1755134421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_24
+      name: Viking-Sheet_left_23
       rect:
         serializedVersion: 2
-        x: 43
-        y: 1693
-        width: 30
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a75763d0ad241d2287a739888b7688f
-      internalID: -1928684051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_25
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 1693
-        width: 31
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 471f5b11fc7a04d92980f79aecc7ee26
-      internalID: -1184545961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_26
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 1693
-        width: 33
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6bf1e6cdb25a88440b804e51e0e0df40
-      internalID: 1089944867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_27
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 1693
-        width: 33
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88232c8a64b7269a29140fc9c71a1907
-      internalID: 48938760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_28
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 1609
-        width: 30
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49b8e79c6b16c737a924e9d641499f09
-      internalID: 863998148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_29
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 1609
-        width: 31
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bf86edaf6a370d37852212a5ac571ef
-      internalID: 1964617613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_30
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 1609
-        width: 33
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf7f517633d65c361904ac0595ccc741
-      internalID: -74463965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_31
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 1609
-        width: 34
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d337e1cd8713af49eb52636952d2ad46
-      internalID: 126000274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_32
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 1609
+        x: 1418
+        y: 1779
         width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84ff2559a1f396d5b475ff7b3d8af9a
+      internalID: -1714280471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_24
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1693
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27bb5381500c0ac9b19c8e164452636
+      internalID: -966324144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_25
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1693
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed5edd358cda779a84930de84d22bc9
+      internalID: -489118604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_26
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1693
+        width: 31
         height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -803,20 +677,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81d327b4ff4b64e0c9b7a792358cc7c9
-      internalID: 387267464
+      spriteID: c5a6c43544a0392189967c3e540c21ee
+      internalID: 138406997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_33
+      name: Viking-Sheet_left_27
       rect:
         serializedVersion: 2
-        x: 613
-        y: 1609
-        width: 38
-        height: 42
+        x: 1422
+        y: 1693
+        width: 30
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -824,83 +698,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93cbc364d4916ed76bd2cb782c358fdf
-      internalID: 1540803428
+      spriteID: 1594c3ed8f9b7745785902c8eec7844f
+      internalID: 1203706880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_34
+      name: Viking-Sheet_left_28
       rect:
         serializedVersion: 2
-        x: 728
-        y: 1609
-        width: 41
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 035e68e5cd3b7e31b89f4557022dd0a4
-      internalID: -390445461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_35
-      rect:
-        serializedVersion: 2
-        x: 843
-        y: 1609
-        width: 40
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4311bc322cf3c9d0b9302dfd3d65a6bf
-      internalID: 59404642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_36
-      rect:
-        serializedVersion: 2
-        x: 958
-        y: 1609
-        width: 44
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3ab3508cd7eddc678dfe53213beb2a8
-      internalID: -451313295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_37
-      rect:
-        serializedVersion: 2
-        x: 1073
+        x: 139
         y: 1609
         width: 53
-        height: 14
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -908,17 +719,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2a14b7900ce4d4189f94b0cc5693151
-      internalID: 605654165
+      spriteID: 7f5d208c67d035126ba2559aefc9d4e1
+      internalID: -789503779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_38
+      name: Viking-Sheet_left_29
       rect:
         serializedVersion: 2
-        x: 1188
+        x: 254
         y: 1609
         width: 53
         height: 12
@@ -929,20 +740,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a38142250fd6419aaede65fde7164c7
-      internalID: 491085399
+      spriteID: daf5e30c162cfb97ab35bb97f5a936b0
+      internalID: -138005931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_39
+      name: Viking-Sheet_left_30
       rect:
         serializedVersion: 2
-        x: 1303
+        x: 369
         y: 1609
         width: 53
-        height: 9
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -950,17 +761,206 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4fc4325bfc8d25fab183367ee9068a3
-      internalID: -700354348
+      spriteID: 9af6299303e09bebe9ebe3d140e689a0
+      internalID: 735404919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_40
+      name: Viking-Sheet_left_31
       rect:
         serializedVersion: 2
-        x: 42
+        x: 493
+        y: 1609
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7add0ac75f366d0ab614e32eac067f
+      internalID: -701792349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_32
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1609
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b85ecab8829fc37abde0e64e180627b
+      internalID: 1514567996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_33
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1609
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add85ef7c7b01b07da7bf71346f2e96b
+      internalID: 1350388507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_34
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1609
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fe645ef02f45d179cea51d79c18f69
+      internalID: 1984562819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_35
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1609
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e551440181b6efe9f6158f768cb1ea
+      internalID: 1742658314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_36
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1609
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ed0104fd5ed16ed9d454592e7fd65e
+      internalID: 2096519501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_37
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1609
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f794327c5537a21bed7e59849ffbf1
+      internalID: 2872254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_38
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1609
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc755677a89e807cc87b3bc6ba6762c8
+      internalID: -606401663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_39
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1609
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db80a1d3dc646154acb890a27514bf1
+      internalID: -1691940815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_40
+      rect:
+        serializedVersion: 2
+        x: 1422
         y: 1527
         width: 31
         height: 41
@@ -971,59 +971,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 647fc3ece20ffe758b59b3db80238f7b
-      internalID: -48968784
+      spriteID: b73cf9acf0c2fe8baa8d5fdd32955526
+      internalID: 1752505777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_41
+      name: Viking-Sheet_left_41
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1445
-        width: 31
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 675675e92189116bdb942e7db394cf1a
-      internalID: -1358593802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_42
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 1446
-        width: 31
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a4f5a4892d3e4ebcb4242b723f02d83
-      internalID: -1478660820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_43
-      rect:
-        serializedVersion: 2
-        x: 272
+        x: 1190
         y: 1444
         width: 33
         height: 41
@@ -1034,17 +992,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 344c9739074011c5a88c8460eacfb4ea
-      internalID: -763947517
+      spriteID: 90ac5e65e8b1ba79997bee4e6667abc2
+      internalID: -111895160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_44
+      name: Viking-Sheet_left_42
       rect:
         serializedVersion: 2
-        x: 42
+        x: 1308
+        y: 1446
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74477451125fcb9e8c6c0a0fe22af5f
+      internalID: 274363994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_43
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1445
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcf04b1d1a7efaf0911ff39a14b637b
+      internalID: -888844231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_44
+      rect:
+        serializedVersion: 2
+        x: 1420
         y: 1358
         width: 33
         height: 43
@@ -1055,19 +1055,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fe6d43f566cba7228455e76c1a7ab69
-      internalID: -385854077
+      spriteID: e4b0f8ba0b2a8a2a4a652b9ccedb62bc
+      internalID: 1646075342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_45
+      name: Viking-Sheet_left_45
       rect:
         serializedVersion: 2
-        x: 40
+        x: 1076
         y: 1273
-        width: 30
+        width: 28
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1076,17 +1076,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9cf81e05db89f77ca287fa347578df7
-      internalID: -1802231388
+      spriteID: dba00281b269a7ff698f624a3a8f11a5
+      internalID: 109956559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_46
+      name: Viking-Sheet_left_46
       rect:
         serializedVersion: 2
-        x: 161
+        x: 1180
+        y: 1273
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb46c7244196c9969bac9eaf761e8ef2
+      internalID: -1175043088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_47
+      rect:
+        serializedVersion: 2
+        x: 1290
         y: 1273
         width: 44
         height: 47
@@ -1097,60 +1118,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6029de6bd2001fd0d91059b8e06ba573
-      internalID: -2088217764
+      spriteID: 0b9201e8fa52e440d9d9040bbe1bbc8d
+      internalID: 51233949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_47
+      name: Viking-Sheet_left_48
       rect:
         serializedVersion: 2
-        x: 276
+        x: 1425
         y: 1273
-        width: 39
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14f6dfdebbae8886e95903b4030b839a
-      internalID: -1895627056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_48
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 1273
-        width: 28
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13549bfaf4fbb408db6581f4e56ddc32
-      internalID: -978591083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_49
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 1189
         width: 30
         height: 46
       alignment: 0
@@ -1160,17 +1139,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdf88364491f45b9db1f4761b4aa64b5
-      internalID: 531466049
+      spriteID: bee5997daea7f82a391b196134e10539
+      internalID: -1909981463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_50
+      name: Viking-Sheet_left_49
       rect:
         serializedVersion: 2
-        x: 153
+        x: 1079
+        y: 1189
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4632e80c702a75e89342ccf44859fd
+      internalID: -85516691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_50
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1189
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ed50a4abc4edd068cebd0ee6bbf139
+      internalID: 935177763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_51
+      rect:
+        serializedVersion: 2
+        x: 1295
         y: 1189
         width: 47
         height: 47
@@ -1181,20 +1202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa0b289da522665e29cdc245e20365a3
-      internalID: 1676498981
+      spriteID: 60b6f87f1d25bc8029239473e9b33e95
+      internalID: -801728493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_51
+      name: Viking-Sheet_left_52
       rect:
         serializedVersion: 2
-        x: 267
+        x: 1419
         y: 1189
-        width: 34
-        height: 44
+        width: 30
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1202,41 +1223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 308fd96f8706d3221a4e3c017117f9b9
-      internalID: 1572965597
+      spriteID: ffcb8b5d34127b7858c4619f2b7a969b
+      internalID: -410826685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_52
+      name: Viking-Sheet_left_53
       rect:
         serializedVersion: 2
-        x: 382
-        y: 1189
-        width: 34
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78fdbd284015c2b4ca453c44aa284b42
-      internalID: 2051971545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_53
-      rect:
-        serializedVersion: 2
-        x: 37
+        x: 1066
         y: 1105
-        width: 34
-        height: 59
+        width: 38
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1244,17 +1244,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c564fc8703c92415086c87f0754b95f8
-      internalID: -1427585493
+      spriteID: 42ba629aa7a35a79fac3e9cd9344e382
+      internalID: 1668790428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_54
+      name: Viking-Sheet_left_54
       rect:
         serializedVersion: 2
-        x: 161
+        x: 1179
+        y: 1105
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195bdd4ba9f351a03b507472ee2928df
+      internalID: -1074183322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_55
+      rect:
+        serializedVersion: 2
+        x: 1294
         y: 1105
         width: 40
         height: 55
@@ -1265,20 +1286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64ef6ad8ed05048c091c7c103b63e734
-      internalID: -1878161613
+      spriteID: 2f1caa4a213d0e7008425981ed0d961f
+      internalID: 698481478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_55
+      name: Viking-Sheet_left_56
       rect:
         serializedVersion: 2
-        x: 276
+        x: 1424
         y: 1105
-        width: 40
-        height: 42
+        width: 34
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1286,59 +1307,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 454a099f81ddc933ab35a6c0a67331eb
-      internalID: 911191924
+      spriteID: 05a3e33066107420a869543bc5f451c0
+      internalID: 142637496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_56
+      name: Viking-Sheet_left_57
       rect:
         serializedVersion: 2
-        x: 391
-        y: 1105
-        width: 38
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f69dd2c6a7ec7710b397d94705585e6
-      internalID: -1478143079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_57
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 1021
-        width: 30
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2646c10401afda0b6a1b6154ee42a49e
-      internalID: 2049934234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_58
-      rect:
-        serializedVersion: 2
-        x: 155
+        x: 620
         y: 1021
         width: 30
         height: 45
@@ -1349,17 +1328,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d276da41ec747598a07b1561f54ecdd
-      internalID: 967147237
+      spriteID: 4381b0ef2aa7d74c1a7511b50bc98ddf
+      internalID: 855128595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_59
+      name: Viking-Sheet_left_58
       rect:
         serializedVersion: 2
-        x: 270
+        x: 735
         y: 1021
         width: 30
         height: 44
@@ -1370,17 +1349,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 364e774287702d21ab9a0fca8509eb30
-      internalID: 2088172525
+      spriteID: 781f4bb593833347181ca45a4c4fe4c9
+      internalID: 2005808763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_60
+      name: Viking-Sheet_left_59
       rect:
         serializedVersion: 2
-        x: 385
+        x: 850
         y: 1021
         width: 30
         height: 44
@@ -1391,17 +1370,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b8317891050a1a1180cc8338baa744c
-      internalID: 1187326388
+      spriteID: 3061a806bd8159d81a4822e75b7b1259
+      internalID: -1972921796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_61
+      name: Viking-Sheet_left_60
       rect:
         serializedVersion: 2
-        x: 500
+        x: 965
         y: 1021
         width: 30
         height: 43
@@ -1412,17 +1391,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83eb2e5d88b9a1f12aad5ca48ebae23b
-      internalID: 2012559074
+      spriteID: c119b25a2a61d50848b863ae8a512327
+      internalID: 769816802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_62
+      name: Viking-Sheet_left_61
       rect:
         serializedVersion: 2
-        x: 615
+        x: 1080
         y: 1021
         width: 30
         height: 44
@@ -1433,17 +1412,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc0ddf377e3c0f8b198028cd2c9853a1
-      internalID: 1777460615
+      spriteID: 389c86b8a4638e3e89deaddbe9037af5
+      internalID: -2050010557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_63
+      name: Viking-Sheet_left_62
       rect:
         serializedVersion: 2
-        x: 730
+        x: 1195
         y: 1021
         width: 30
         height: 44
@@ -1454,17 +1433,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c973d7812d7209b09a2e057a26c3c3c
-      internalID: 2002707024
+      spriteID: 83ece429d50e6b03ebf786a5da79d2c3
+      internalID: 1808231390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_64
+      name: Viking-Sheet_left_63
       rect:
         serializedVersion: 2
-        x: 845
+        x: 1310
         y: 1021
         width: 30
         height: 45
@@ -1475,39 +1454,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d282cfd877038572bbffd1753190fca
-      internalID: 2027422227
+      spriteID: e11a6f8d55605cf5c971946470079861
+      internalID: 677037096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_65
+      name: Viking-Sheet_left_64
       rect:
         serializedVersion: 2
-        x: 40
-        y: 937
-        width: 30
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d527fe76f110a3a018966b48b1937eca
-      internalID: -1967446728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_66
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 937
+        x: 1425
+        y: 1021
         width: 30
         height: 46
       alignment: 0
@@ -1517,17 +1475,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04bc680b6b61e6a6b9083ad55554918c
-      internalID: -1221999244
+      spriteID: 99dda1b710b8a9c09b881620af9c53f5
+      internalID: 337143315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_67
+      name: Viking-Sheet_left_65
       rect:
         serializedVersion: 2
-        x: 269
+        x: 966
+        y: 937
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0912e62ff5e747a28ad1c5420ca77d5d
+      internalID: -1814216017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_66
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 937
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43a6365459a93fd68e5c4b159623257
+      internalID: 109925776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_67
+      rect:
+        serializedVersion: 2
+        x: 1192
         y: 937
         width: 34
         height: 47
@@ -1538,40 +1538,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddb434e450f3284569ec06512c211571
-      internalID: -310528624
+      spriteID: 18ffce691079d8488b75a4dfa01d1319
+      internalID: -640963106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_68
+      name: Viking-Sheet_left_68
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1312
         y: 937
-        width: 36
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65ea813472bc7260b83a2251f246a7a8
-      internalID: -832722055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_69
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 937
-        width: 29
+        width: 30
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1580,20 +1559,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 821069c0e6d80d4348848e43ae90aed6
-      internalID: -2042752440
+      spriteID: a5420d06ed28d0880b3f557219fc3f83
+      internalID: -1946963987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_70
+      name: Viking-Sheet_left_69
       rect:
         serializedVersion: 2
-        x: 40
-        y: 853
-        width: 33
-        height: 42
+        x: 1425
+        y: 937
+        width: 30
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1601,17 +1580,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3ad9c1d49682c160884e1710d6b68a2
-      internalID: -364646190
+      spriteID: 12ec0e9d1bcbf1d31920d55bcecd4731
+      internalID: -1310221003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_71
+      name: Viking-Sheet_left_70
       rect:
         serializedVersion: 2
-        x: 150
+        x: 1311
         y: 853
         width: 34
         height: 32
@@ -1622,17 +1601,122 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4918105b6874280ce9d4d352f1f421a3
-      internalID: -1841643861
+      spriteID: 5698a3cc76e500c0cbc94115e89b234e
+      internalID: 1701744516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_72
+      name: Viking-Sheet_left_71
       rect:
         serializedVersion: 2
-        x: 47
+        x: 1422
+        y: 853
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc57b5cf64ff6a2f29e60a701295f267
+      internalID: 326331617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_72
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 769
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37bdf15b8e24649ba614b09d03be5c9
+      internalID: -255035456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_73
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 769
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebb6a02d09d30598828435a8fb8b9cc
+      internalID: 2014168593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_74
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 769
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41077f9d69117b25a89f6935b4c72434
+      internalID: 847578155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_75
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 769
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3d7512afd468bc9a7a83f212628cf7
+      internalID: 859892661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_76
+      rect:
+        serializedVersion: 2
+        x: 1424
         y: 769
         width: 24
         height: 33
@@ -1643,101 +1727,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e466a38d6dbac157bd525e95d390963
-      internalID: 460981899
+      spriteID: 4da0f90e0a26f89179b8063f4b247adc
+      internalID: 2123698579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_73
+      name: Viking-Sheet_left_77
       rect:
         serializedVersion: 2
-        x: 141
-        y: 769
-        width: 65
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc031a687a4d48285ae973e8d8abb8c3
-      internalID: 635571716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_74
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 769
-        width: 43
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb2f323b09926a717bf56552286d8644
-      internalID: 960755506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_75
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 769
-        width: 43
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab26278ed8c3ebeca8f64895ebe7a5b5
-      internalID: -1673863525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_76
-      rect:
-        serializedVersion: 2
-        x: 492
-        y: 769
-        width: 37
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd0a6402c0aa32f1d9c63a56991448de
-      internalID: -944304731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_77
-      rect:
-        serializedVersion: 2
-        x: 38
+        x: 734
         y: 685
         width: 33
         height: 42
@@ -1748,17 +1748,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb451d8f062f0aafdaaad148e3bba5b4
-      internalID: -1805583709
+      spriteID: e783675d21ade87b781c74049599207b
+      internalID: -1269891106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_78
+      name: Viking-Sheet_left_78
       rect:
         serializedVersion: 2
-        x: 150
+        x: 850
         y: 685
         width: 35
         height: 40
@@ -1769,17 +1769,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d527c5934e4b294c99623bdaadbfea33
-      internalID: 1965951098
+      spriteID: f02f3d3dd2cfc421a984d7c6d1cd61fc
+      internalID: -1660166783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_79
+      name: Viking-Sheet_left_79
       rect:
         serializedVersion: 2
-        x: 268
+        x: 955
         y: 685
         width: 42
         height: 28
@@ -1790,17 +1790,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 869aab9ef251ed8b38f696c8fb52d58c
-      internalID: -1351258521
+      spriteID: a7c091380a521c6faba9e707c5651f90
+      internalID: -700370740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_80
+      name: Viking-Sheet_left_80
       rect:
         serializedVersion: 2
-        x: 382
+        x: 1070
         y: 685
         width: 43
         height: 23
@@ -1811,17 +1811,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5342094f5e02facb4875f7b79c5fe2a5
-      internalID: 317932937
+      spriteID: 4c1f0c2491033ddb390caf936423a3ab
+      internalID: 638350612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_81
+      name: Viking-Sheet_left_81
       rect:
         serializedVersion: 2
-        x: 498
+        x: 1185
         y: 685
         width: 42
         height: 28
@@ -1832,17 +1832,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 533caef2526678ae68dc7cb6acdfa664
-      internalID: 623083856
+      spriteID: 41ab13ff31e064bd0b3b7543e7f149f5
+      internalID: 888534433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_82
+      name: Viking-Sheet_left_82
       rect:
         serializedVersion: 2
-        x: 610
+        x: 1310
         y: 685
         width: 35
         height: 40
@@ -1853,17 +1853,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95d60ef3ec2978ee5abdb7bbd25eeeaa
-      internalID: -1728187057
+      spriteID: 28fe70d27aa4ad6cfbba99f4d922900b
+      internalID: 56448883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_83
+      name: Viking-Sheet_left_83
       rect:
         serializedVersion: 2
-        x: 728
+        x: 1424
         y: 685
         width: 33
         height: 42
@@ -1874,80 +1874,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8fd8569b6e3b944ea76c5125a9264cf
-      internalID: -1650912316
+      spriteID: 1e0b062a8795bf6bb8adfb43bcb0b5dc
+      internalID: -1354095847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_84
+      name: Viking-Sheet_left_84
       rect:
         serializedVersion: 2
-        x: 47
-        y: 601
-        width: 20
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1d22bca5863741349240e3fc46562e3
-      internalID: -1722642341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_85
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 604
-        width: 21
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4651c308abba3b09bcaf3af48117a6f
-      internalID: -637082338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_86
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 604
-        width: 20
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5127ddffdb174e12c9b49b62e355c58e
-      internalID: 1196725534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_87
-      rect:
-        serializedVersion: 2
-        x: 392
+        x: 623
         y: 601
         width: 20
         height: 49
@@ -1958,59 +1895,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: affd50cfe503e6ef4a7616213b53e981
-      internalID: -814652981
+      spriteID: 93d4b1a6b99e7460a9402eccedb42f9d
+      internalID: -1916822894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_88
+      name: Viking-Sheet_left_85
       rect:
         serializedVersion: 2
-        x: 507
-        y: 601
-        width: 20
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 553c6bacd96f5d54483e69c58867c45b
-      internalID: 1805505776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_89
-      rect:
-        serializedVersion: 2
-        x: 622
-        y: 604
-        width: 21
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f17ac99cfa1c7132a888278cabf5c5e1
-      internalID: -2088440332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_90
-      rect:
-        serializedVersion: 2
-        x: 737
+        x: 738
         y: 604
         width: 20
         height: 43
@@ -2021,17 +1916,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 137a4d23d72035fa58dfd33f71dc06f0
-      internalID: 755724246
+      spriteID: c57a03960d092005e9a8a1c883c8df7c
+      internalID: 1031996562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_91
+      name: Viking-Sheet_left_86
       rect:
         serializedVersion: 2
         x: 852
+        y: 604
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9db1b2f784bdf60a37fc73da5a87c1
+      internalID: -1769222906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_87
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 601
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca4859e32f757c5eb15f60139bc3e9c
+      internalID: -877658051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_88
+      rect:
+        serializedVersion: 2
+        x: 1083
         y: 601
         width: 20
         height: 49
@@ -2042,19 +1979,82 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ee0a189177bd6fac80a6a3ba1bc7aab
-      internalID: 1923870966
+      spriteID: a1ea6c2e6095db51eaa173f78c9ff58a
+      internalID: 2070993962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_92
+      name: Viking-Sheet_left_89
       rect:
         serializedVersion: 2
-        x: 42
-        y: 519
-        width: 31
+        x: 1198
+        y: 604
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a42e3f7f2734b08dbda3974e3d85501
+      internalID: -864616805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_90
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 604
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8880ce9739dcefb2b578c568c83849d
+      internalID: 236485142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_91
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 601
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97565342ab1aaa90ac8decbd0d6bf42
+      internalID: -732128663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_92
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 520
+        width: 33
         height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2063,80 +2063,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d879282f39066903d8006b6ba92fdc23
-      internalID: 1202226281
+      spriteID: ba420e5deb24d5f19b1410fc11ecd603
+      internalID: 966716165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_93
+      name: Viking-Sheet_left_93
       rect:
         serializedVersion: 2
-        x: 162
-        y: 521
-        width: 31
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b53514d85544075d9396b15312e2bc0
-      internalID: 742484191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_94
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 522
-        width: 65
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 986e7717a734c24099213e1ec46dada7
-      internalID: -1643739554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_95
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 521
-        width: 46
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0343754b3568602d0953c8b2b5ee8478
-      internalID: 2063299120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_96
-      rect:
-        serializedVersion: 2
-        x: 496
+        x: 960
         y: 520
         width: 39
         height: 41
@@ -2147,20 +2084,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63cb3ba8d27816c648d1906286513f6e
-      internalID: 1600738623
+      spriteID: bc17c74e84791c110821a04d6d3594a8
+      internalID: 635685193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_97
+      name: Viking-Sheet_left_94
       rect:
         serializedVersion: 2
-        x: 617
-        y: 520
-        width: 33
-        height: 41
+        x: 1075
+        y: 521
+        width: 46
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2168,145 +2105,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8756b1f87efe8190b6370ffd6421218
-      internalID: -421930695
+      spriteID: d799cbd85542ad09c9eb4c411f883d4d
+      internalID: -1762654351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_98
+      name: Viking-Sheet_left_95
       rect:
         serializedVersion: 2
-        x: 41
-        y: 434
-        width: 24
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f90862c9f253f421a25782e0100d0a6
-      internalID: -1893717842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_99
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 434
-        width: 24
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a33b8a8ec40527659b41ebe8ef881bc8
-      internalID: 1837683437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_100
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 434
-        width: 24
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13bcd21286f0915eea4dc7b97494a8b9
-      internalID: -407655052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_101
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 434
-        width: 24
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44d61b4d5fa5ef9f0883a548d79935d4
-      internalID: -1732822060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_102
-      rect:
-        serializedVersion: 2
-        x: 501
-        y: 434
-        width: 24
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed607d2138fd5f915887c3c4ec8957d9
-      internalID: 58213626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_103
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 434
-        width: 24
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84c9e373be450808eaae1df2234b35e1
-      internalID: -2001074937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_104
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 365
-        width: 26
+        x: 1171
+        y: 522
+        width: 65
         height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -2315,20 +2126,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c67bc4dd22789ef5ba09fcff4495ebc7
-      internalID: -1165702579
+      spriteID: 7649dcdb707f47cfb80837dc4dd0fa58
+      internalID: 1790035983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_105
+      name: Viking-Sheet_left_96
       rect:
         serializedVersion: 2
-        x: 152
-        y: 369
-        width: 30
-        height: 38
+        x: 1302
+        y: 521
+        width: 31
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2336,20 +2147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86671f4c3492237d681bbf45466b10ad
-      internalID: -163574767
+      spriteID: aafd01450e6d78f038871ae5eef1d93a
+      internalID: 931831147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_106
+      name: Viking-Sheet_left_97
       rect:
         serializedVersion: 2
-        x: 269
-        y: 369
-        width: 28
-        height: 32
+        x: 1422
+        y: 519
+        width: 31
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2357,20 +2168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a79dc0599a28233d88c6eca53234bad8
-      internalID: -1899611576
+      spriteID: 8b962a17ab183a04d8a85951eb58cbe5
+      internalID: -792479819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_107
+      name: Viking-Sheet_left_98
       rect:
         serializedVersion: 2
-        x: 382
-        y: 370
-        width: 27
-        height: 38
+        x: 855
+        y: 434
+        width: 24
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2378,17 +2189,122 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ec9f9e755e7ff93e8ffc7019b41917c
-      internalID: 1765618651
+      spriteID: 878c13c351033c062af1bb9de90e0936
+      internalID: -2065669103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_108
+      name: Viking-Sheet_left_99
       rect:
         serializedVersion: 2
-        x: 495
+        x: 970
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c969051db375a68ab9d0b29a0fc9b5d4
+      internalID: -1145667392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_100
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b70ae8181853c2ee80d3731c427e528
+      internalID: 151106479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_101
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a31cac1e8ba32388be24fbe722ffec
+      internalID: 1642108018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_102
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69dc2d0e95963aebbf3282474909557
+      internalID: 1743620300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_103
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 434
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0965de1e25911040b50d331165239ea
+      internalID: 857163908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_104
+      rect:
+        serializedVersion: 2
+        x: 967
         y: 369
         width: 33
         height: 42
@@ -2399,20 +2315,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b00c3e544331c27809e09507ef06aef7
-      internalID: -1124691619
+      spriteID: dacbbbb1112efc7dd9b622c25dbfdab1
+      internalID: -217482252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_109
+      name: Viking-Sheet_left_105
       rect:
         serializedVersion: 2
-        x: 37
-        y: 265
-        width: 32
-        height: 45
+        x: 1086
+        y: 370
+        width: 27
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2420,20 +2336,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09412542d961003c3ada59b7fffd4575
-      internalID: 1964131901
+      spriteID: 9d2753dd40cd24572bb270a44f2000e3
+      internalID: -1211857977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_110
+      name: Viking-Sheet_left_106
       rect:
         serializedVersion: 2
-        x: 151
-        y: 265
-        width: 32
-        height: 45
+        x: 1198
+        y: 369
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2441,20 +2357,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 117b613e011e1602a8aad46fb5837170
-      internalID: 470734172
+      spriteID: 75c15d845bb441b2e9ba9385f0510166
+      internalID: -535997321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_111
+      name: Viking-Sheet_left_107
       rect:
         serializedVersion: 2
-        x: 249
-        y: 265
-        width: 11
-        height: 4
+        x: 1313
+        y: 369
+        width: 30
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2462,544 +2378,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 799afe15bdba9ae7eb14d25e0a8664b5
-      internalID: 1025468822
+      spriteID: e3a87c680b0370f059901fa996fcfac7
+      internalID: -297582746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_112
+      name: Viking-Sheet_left_108
       rect:
         serializedVersion: 2
-        x: 265
-        y: 265
-        width: 64
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e41d9c77f1b5d044192c2abcd20b9c3a
-      internalID: -1581934375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_113
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 265
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb643ba91532844b389c32962d455878
-      internalID: -1326860541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_114
-      rect:
-        serializedVersion: 2
-        x: 366
-        y: 265
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70c53078d15b4a27b9108b50a36e638a
-      internalID: 667967531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_115
-      rect:
-        serializedVersion: 2
-        x: 376
-        y: 265
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f54784536b3231266b24267a6576a78b
-      internalID: 620915837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_116
-      rect:
-        serializedVersion: 2
-        x: 392
-        y: 265
-        width: 36
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8616eec3729315359111d08e069afbe
-      internalID: -1610877306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_117
-      rect:
-        serializedVersion: 2
-        x: 423
-        y: 265
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbf96551e671f7cbd84ea24b0ae5f5b8
-      internalID: 748430062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_118
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 265
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 103955a224535de6998ba3d808d51ecf
-      internalID: -1889532590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_119
-      rect:
-        serializedVersion: 2
-        x: 441
-        y: 265
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6841aaa74b1421dbfbad6b5e4d69d431
-      internalID: -1039620739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_120
-      rect:
-        serializedVersion: 2
-        x: 469
-        y: 265
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1eb9693767495611b409654e71cdea3
-      internalID: 1985857199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_121
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 265
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a79100e42ad0eb2988bdbff98ff194bc
-      internalID: 66972672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_122
-      rect:
-        serializedVersion: 2
-        x: 491
-        y: 265
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2240cc5842add77e89c7d16acf108252
-      internalID: 513154554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_123
-      rect:
-        serializedVersion: 2
-        x: 507
-        y: 265
-        width: 36
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6cf020c5b2b589c1aae5348abc3771e
-      internalID: 645930249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_124
-      rect:
-        serializedVersion: 2
-        x: 538
-        y: 265
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7763762e196782cd87f8c9e2e49201b
-      internalID: -1851872042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_125
-      rect:
-        serializedVersion: 2
-        x: 547
-        y: 265
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22557fc0b3201c5f197fb1b549ddb1ef
-      internalID: 315549816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_126
-      rect:
-        serializedVersion: 2
-        x: 556
-        y: 265
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 039d3f84fcaded5ba941df13c489a211
-      internalID: 505861977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_127
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 265
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 009f6c7c59b4d848a96cd0d5f4dd0a81
-      internalID: 748096448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_128
-      rect:
-        serializedVersion: 2
-        x: 596
-        y: 265
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a92e58efd601660f9f2d653816c93b2
-      internalID: -263603522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_129
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 265
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e9e33233864a6c368181206c928dc58
-      internalID: 1758621013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_130
-      rect:
-        serializedVersion: 2
-        x: 622
-        y: 265
-        width: 36
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8072c1826d22c2644a6bd6a27980d53c
-      internalID: -1755871091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_131
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 265
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39350ba018afdad2685b63a67e114014
-      internalID: 491131135
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_132
-      rect:
-        serializedVersion: 2
-        x: 662
-        y: 265
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9ef0a9c8dc6b9b88a26ed45dfac4353
-      internalID: -1045528890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_133
-      rect:
-        serializedVersion: 2
-        x: 671
-        y: 265
-        width: 13
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ce9eabf3c0d30ba9ac2f6c0b7c6f9f9
-      internalID: 2098245383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_134
-      rect:
-        serializedVersion: 2
-        x: 699
-        y: 265
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c9a84016c6e875a4a89300dbeacb94b
-      internalID: 2068484285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_135
-      rect:
-        serializedVersion: 2
-        x: 711
-        y: 265
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53358c1ec17d4e38cbdbaef487aec452
-      internalID: -1957717751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_136
-      rect:
-        serializedVersion: 2
-        x: 721
-        y: 265
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f144eb683ef37432aa368593351550b7
-      internalID: -866414719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_137
-      rect:
-        serializedVersion: 2
-        x: 737
-        y: 265
-        width: 36
+        x: 1430
+        y: 365
+        width: 26
         height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -3008,20 +2399,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09c7fef09a2ed45199296ffed79c82eb
-      internalID: -1577988623
+      spriteID: 8bc2386c8660730fa920e92e72d4840e
+      internalID: -444878651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_138
+      name: Viking-Sheet_left_109
       rect:
         serializedVersion: 2
-        x: 768
+        x: 272
         y: 265
-        width: 7
-        height: 10
+        width: 33
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3029,20 +2420,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d9275acd92c570b098e84be5e7b3d31
-      internalID: -208670732
+      spriteID: a7b517f3abe1d37759845a563f01627c
+      internalID: 536692010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_139
+      name: Viking-Sheet_left_110
       rect:
         serializedVersion: 2
-        x: 777
+        x: 351
         y: 265
-        width: 9
-        height: 14
+        width: 29
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3050,20 +2441,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c529b0626266ce728b0462d432e68c5
-      internalID: 1403962150
+      spriteID: 6e9293275d12e6ded8934c2aea402955
+      internalID: -1637739484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_140
+      name: Viking-Sheet_left_111
       rect:
         serializedVersion: 2
-        x: 786
+        x: 386
         y: 265
-        width: 13
-        height: 16
+        width: 33
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3071,185 +2462,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35b48b5f4f2f028b9a2ceea42ce12112
-      internalID: -422818764
+      spriteID: 3e16f5ee47593a27cb2c821f30f1a543
+      internalID: -480433300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_141
+      name: Viking-Sheet_left_112
       rect:
         serializedVersion: 2
-        x: 813
-        y: 273
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06b27c61e1ccfc9a48aaa0599225f542
-      internalID: 2088507347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_142
-      rect:
-        serializedVersion: 2
-        x: 817
-        y: 270
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e1eceb06b3749cdaaabc0c185d6c12c
-      internalID: 123184657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_143
-      rect:
-        serializedVersion: 2
-        x: 819
-        y: 265
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5f339eacf0e5e1d08bc748ad3500198
-      internalID: -1520491162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_144
-      rect:
-        serializedVersion: 2
-        x: 824
-        y: 265
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3aa9e4eb69f62504795bdd6dc9b7defd
-      internalID: -725362402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_145
-      rect:
-        serializedVersion: 2
-        x: 825
-        y: 265
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0497cb51eba8146ccaeeb0dfa4b5e894
-      internalID: -1115488120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_146
-      rect:
-        serializedVersion: 2
-        x: 838
-        y: 265
-        width: 6
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24d5e0fb76420d57fb8de07df1d916ce
-      internalID: 371582705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_147
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 265
-        width: 38
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9928412ec2cf45d8b335247601dc449
-      internalID: -705580260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_148
-      rect:
-        serializedVersion: 2
-        x: 892
-        y: 265
-        width: 65
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ade0824f32bfadf5399bd32037c9b00f
-      internalID: 1518835173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_149
-      rect:
-        serializedVersion: 2
-        x: 967
+        x: 426
         y: 265
         width: 102
         height: 41
@@ -3260,20 +2483,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67201e44a2aea6cc59126732c49c23f8
-      internalID: 712742353
+      spriteID: 2103f112079097f418d11f8fb57a7bc1
+      internalID: -1547880724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_150
+      name: Viking-Sheet_left_113
       rect:
         serializedVersion: 2
-        x: 1076
+        x: 538
         y: 265
-        width: 33
-        height: 46
+        width: 65
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3281,20 +2504,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e689c83cf810c28569ff2cacbe733a3d
-      internalID: -1992188580
+      spriteID: f7b90f4c818354344ae3e23356ac2029
+      internalID: -1022271062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_151
+      name: Viking-Sheet_left_114
       rect:
         serializedVersion: 2
-        x: 1115
+        x: 605
         y: 265
-        width: 29
-        height: 11
+        width: 38
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3302,20 +2525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91a8b44766dd35c45b3a6b19742c06b5
-      internalID: 1874158733
+      spriteID: 9309962d497f688beb12b1afa7d8ece7
+      internalID: -186329891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_152
+      name: Viking-Sheet_left_115
       rect:
         serializedVersion: 2
-        x: 1190
+        x: 651
         y: 265
-        width: 33
-        height: 46
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3323,19 +2546,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0709353719bc931a88d74b58345eb98d
-      internalID: -663748958
+      spriteID: 2c238b0e6134d0f6899883c483877964
+      internalID: 2014641100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_153
+      name: Viking-Sheet_left_116
       rect:
         serializedVersion: 2
-        x: 281
-        y: 242
-        width: 11
+        x: 660
+        y: 265
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c78976c1698826c97a47ae2545fd71
+      internalID: -2100181120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_117
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 265
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f820303b58a5d159db74a1ad825ea873
+      internalID: -1863680961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_118
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 265
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e863c9d562083efb0bdabe78bae6b8
+      internalID: 540681261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_119
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 270
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8231103abdb7151468519f7cd2ca5393
+      internalID: -437897648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_120
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 273
+        width: 4
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -3344,20 +2651,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03e34a7361e1ea856b676de721530697
-      internalID: -76123990
+      spriteID: 0706602984e534853a72b1759adbbd3c
+      internalID: -437446954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_154
+      name: Viking-Sheet_left_121
       rect:
         serializedVersion: 2
-        x: 382
-        y: 181
-        width: 35
-        height: 65
+        x: 696
+        y: 265
+        width: 13
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3365,20 +2672,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b1d32f6cec255746b78dfa8e5bfd42f
-      internalID: -730857908
+      spriteID: 2404f726b53ec80269ef42eae482c00b
+      internalID: 1787288977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_155
+      name: Viking-Sheet_left_122
       rect:
         serializedVersion: 2
-        x: 497
-        y: 181
+        x: 709
+        y: 265
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5319e8202bb83f6f9a2366e5802cf73
+      internalID: 599089943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_123
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 265
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdeafe75abef4adf3820a620342f444d
+      internalID: 424040890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_124
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 265
         width: 36
-        height: 63
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3386,20 +2735,608 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fa129384247e4d6c8e88eb042312e69
-      internalID: -1174441566
+      spriteID: 95f37fef31f5c74258f3056766d05758
+      internalID: 1483553337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_156
+      name: Viking-Sheet_left_125
       rect:
         serializedVersion: 2
-        x: 727
+        x: 766
+        y: 265
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667ef32c5fcbd7408a30223f75e311ed
+      internalID: 1650941468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_126
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 265
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426f823e0a46b5a008f1189e127653eb
+      internalID: -2140800715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_127
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 265
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f380a109627abcbbf593a2239302f3
+      internalID: 1429513612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_128
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 265
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4595b8463f06ae692953ac670db7d184
+      internalID: -991728939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_129
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 265
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ac26679b1da43b7a40b049d4e2b673
+      internalID: -1991420247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_130
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 265
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e32a3753a7f812bbb1f8fe7fe1af801
+      internalID: 643619039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_131
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 265
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9158c26909ddcf3edb9943a5d8bc9d73
+      internalID: -342628111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_132
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 265
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2248f25ca41da30c1834f3e38226347c
+      internalID: -1467775403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_133
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 265
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670e4fe736ed25863a9b7bcaf7cd9307
+      internalID: -148680595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_134
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 265
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e557719a9d7084752b4d1264de22548f
+      internalID: -468289472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_135
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 265
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e350aeae571ab8df2b87145bdf672c46
+      internalID: 132737340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_136
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 265
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac4bbed50edb9e7c8fb3a0cbbc41a7b
+      internalID: 1944626756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_137
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 265
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8bb73b14330b314a3b03ecdcaf9437
+      internalID: 555083201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_138
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 265
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9291a9d10eb022f83b020c4c4753368f
+      internalID: -215150162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_139
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 265
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0082df534585f1aac903f1f6e10663e8
+      internalID: -1366431514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_140
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 265
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4e752561bcad2018483d4959038d9a
+      internalID: 1501511094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_141
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 265
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3135444fd0c3109099ace890ce78d0f
+      internalID: -15387963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_142
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 265
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d497d984372639d9aed3e64a7b02d5
+      internalID: 905623189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_143
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 265
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40e66a0a7a2e1a86a254fb0ba951335
+      internalID: -1738194506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_144
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 265
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fb86e65450e551aa6049cb25ce1b56
+      internalID: -1852736811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_145
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 265
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f8a0e4abfdb9ba5bb3027bf32891d5
+      internalID: 1931534227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_146
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 265
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ce17743cd826239a7eb24892582b51
+      internalID: 549664823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_147
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 265
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ebf6dd0dc354bfeb89a802b0ac091a
+      internalID: -911438494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_148
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 265
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6aea10da9bfd3d08686e7a520c1008
+      internalID: -1397507052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_149
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 265
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df4ce4f63290dadaabd799455a3917c
+      internalID: -254551390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_150
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 265
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6974d1151ae220f00aeefb8f0b8aa76f
+      internalID: 732019143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_151
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 265
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1060ed452839835a9012445acd0e577
+      internalID: -438550541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_152
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 265
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa370f934ac22a32a8c222769bd4590e
+      internalID: -1445371420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_153
+      rect:
+        serializedVersion: 2
+        x: 274
         y: 181
-        width: 38
-        height: 62
+        width: 37
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3407,17 +3344,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aee4b58265454b98a02294dd627f625
-      internalID: 2136981619
+      spriteID: f07324a5fe7f7b86f82c58e13acb7345
+      internalID: 486959284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_157
+      name: Viking-Sheet_left_154
       rect:
         serializedVersion: 2
-        x: 839
+        x: 384
         y: 181
         width: 42
         height: 64
@@ -3428,17 +3365,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a477c807c624351ce8fa3848929565da
-      internalID: 1595437649
+      spriteID: 563068f15f78958cb83bef8f31ad5c11
+      internalID: -615835632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_158
+      name: Viking-Sheet_left_155
       rect:
         serializedVersion: 2
-        x: 954
+        x: 498
         y: 181
         width: 43
         height: 64
@@ -3449,17 +3386,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eed537ebe682865e2961c0c7b679c836
-      internalID: 997828457
+      spriteID: 56e677e3170251a339aae773d6bf4580
+      internalID: 24455626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_159
+      name: Viking-Sheet_left_156
       rect:
         serializedVersion: 2
-        x: 1069
+        x: 614
         y: 181
         width: 42
         height: 64
@@ -3470,20 +3407,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9da243749015bb3eaa17d1ffd669d28f
-      internalID: -55959213
+      spriteID: 448b5dd8727105e1c8e0abcd5690a937
+      internalID: -1170316774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_160
+      name: Viking-Sheet_left_157
       rect:
         serializedVersion: 2
-        x: 1184
+        x: 730
         y: 181
-        width: 37
-        height: 64
+        width: 38
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3491,20 +3428,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35909ae169023a729a193233e97f927a
-      internalID: 424356394
+      spriteID: ac88da357b44addcea9fc11c9011e626
+      internalID: -878008998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_161
+      name: Viking-Sheet_left_158
       rect:
         serializedVersion: 2
-        x: 256
-        y: 228
+        x: 962
+        y: 181
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e2abd5aa62a5246807ba463c3cf567
+      internalID: 1176692409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_159
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 181
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb9b1aff5d97e965abf3f653eb6a3ed
+      internalID: -647367587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_160
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 242
         width: 11
-        height: 9
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3512,38 +3491,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b19c91fc88b50fcc90d280e55e5ff80
-      internalID: -1836373920
+      spriteID: f7e29d8fe59518da895b264640faa096
+      internalID: -615416551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_162
+      name: Viking-Sheet_left_161
       rect:
         serializedVersion: 2
-        x: 267
-        y: 181
-        width: 34
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa71bfd114d08dff6962a2900dcd5dbf
-      internalID: -1830400755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_163
-      rect:
-        serializedVersion: 2
-        x: 612
+        x: 846
         y: 181
         width: 37
         height: 60
@@ -3554,17 +3512,122 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 742c65e39c27bd102bcfb995d889dfc0
-      internalID: 1838640309
+      spriteID: c8ed19859673d7ffba796ce88bb7882b
+      internalID: -1592193110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_164
+      name: Viking-Sheet_left_162
       rect:
         serializedVersion: 2
-        x: 40
+        x: 1194
+        y: 181
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6bb346a430be273bbb828c53c4c893
+      internalID: 520940879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_163
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 228
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8a8b08fba136aa3addf1721d0d9ac7
+      internalID: -1034934156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_164
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 181
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d201193aa1551b8ea57c32502801206
+      internalID: -1273016323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_165
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 181
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59a791d2ca2e20fca2ac014522c4092
+      internalID: -882520396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_166
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 181
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b65b541612c44c686e570e7c50f6fe
+      internalID: -326451797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_167
+      rect:
+        serializedVersion: 2
+        x: 1425
         y: 181
         width: 30
         height: 46
@@ -3575,164 +3638,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa721348ad046ae509d5a58d62f83883
-      internalID: 354992471
+      spriteID: 617ed6103798f84a2be058be8bf635c7
+      internalID: -528103609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_165
+      name: Viking-Sheet_left_168
       rect:
         serializedVersion: 2
-        x: 149
-        y: 181
-        width: 37
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cbd2853c3dee49589b84f35f74ca277
-      internalID: 1409248917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_166
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 181
-        width: 37
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bd75545c0d5c5a7491b30d87759b2ca
-      internalID: -262260172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_167
-      rect:
-        serializedVersion: 2
-        x: 1419
-        y: 181
-        width: 33
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08dfc635cde704bc1b9ff5b500f5f2ba
-      internalID: 671357433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_168
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 99
-        width: 38
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8173b9f99ac05e75591e7d3f03771d22
-      internalID: 1885482904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_169
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 99
-        width: 38
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 587a4b46eff6b4b1b8af8d757ff691ef
-      internalID: -1475348817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_170
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 99
-        width: 38
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e37705f35bbd42f78b87abfefe4d9ead
-      internalID: -1082786452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_171
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 99
-        width: 38
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b01acb66a172c1f39b3eb53015101879
-      internalID: -1876685479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_172
-      rect:
-        serializedVersion: 2
-        x: 502
+        x: 958
         y: 99
         width: 35
         height: 41
@@ -3743,20 +3659,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35e56b4182f8c4ac3bdf0d6113df4c98
-      internalID: -1372753263
+      spriteID: 37268621c55b47aceb6c34901864a8ee
+      internalID: -2031835908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_173
+      name: Viking-Sheet_left_169
       rect:
         serializedVersion: 2
-        x: 41
-        y: 13
-        width: 33
-        height: 46
+        x: 1072
+        y: 99
+        width: 38
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3764,290 +3680,101 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9e662f2f919db18ebdd51018b7869eb
-      internalID: -863365651
+      spriteID: 9dad0afb4264110deac1077cf84f27b7
+      internalID: 1441584424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_174
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 13
-        width: 33
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87c48d2a5d0048fc6bec0c1713c216b7
-      internalID: -2108618654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_175
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 13
-        width: 37
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a41abb13ad37d4f1bae713864e5561f
-      internalID: 2021392005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_176
-      rect:
-        serializedVersion: 2
-        x: 309
-        y: 40
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9301ba3f4b16c774a538bb4b35c4f09
-      internalID: 445593043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_177
-      rect:
-        serializedVersion: 2
-        x: 387
-        y: 13
-        width: 34
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1418be2203af0b567b0f92fe43d22c9d
-      internalID: 1285718306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_178
-      rect:
-        serializedVersion: 2
-        x: 422
-        y: 40
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ce5d57a5615ed541afb0d5e26583bd2
-      internalID: 61590062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_179
-      rect:
-        serializedVersion: 2
-        x: 502
-        y: 13
-        width: 50
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e655550687577b7d893fcf7b058e5d60
-      internalID: 42420326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_180
-      rect:
-        serializedVersion: 2
-        x: 617
-        y: 13
-        width: 50
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c331ecc0938190a9a2c7a0f5c329995
-      internalID: 1115727381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_181
-      rect:
-        serializedVersion: 2
-        x: 732
-        y: 13
-        width: 50
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0c632c9b11f280b8addcfe797e5beee
-      internalID: 1336566702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_182
-      rect:
-        serializedVersion: 2
-        x: 847
-        y: 13
-        width: 50
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ac0f2963b2228ec691bd0658b531a2e
-      internalID: 1811577585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_183
-      rect:
-        serializedVersion: 2
-        x: 957
-        y: 13
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46f4af3f21c72bc2399f8071fb20fecf
-      internalID: -1272772090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_184
-      rect:
-        serializedVersion: 2
-        x: 995
-        y: 39
-        width: 5
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 923ff4dde7652a2689bf2323b5dfc46b
-      internalID: 1233950544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_185
-      rect:
-        serializedVersion: 2
-        x: 1071
-        y: 13
-        width: 28
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00688341f53395467bce411cbe773601
-      internalID: 542119551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_186
-      rect:
-        serializedVersion: 2
-        x: 1109
-        y: 33
-        width: 8
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16bfbb0c2ebe5dd6bb3c2cb070135100
-      internalID: -1239200993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Viking-Sheet_187
+      name: Viking-Sheet_left_170
       rect:
         serializedVersion: 2
         x: 1187
+        y: 99
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f9db2cf31c7c895ab251fd40a6f233
+      internalID: -1123203416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_171
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 99
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487e54d1a231d2bb9ad411dc54166258
+      internalID: 473125414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_172
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 99
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afcd67b62e2a046b8b5133216a3ba59
+      internalID: 89717850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_173
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 13
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7e26c4d1b8c2970be6c60de6e38dc1
+      internalID: 795922582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_174
+      rect:
+        serializedVersion: 2
+        x: 272
         y: 13
         width: 36
         height: 46
@@ -4058,17 +3785,269 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 792aa6f1360d22dd7af00e0c57384d96
-      internalID: 530038838
+      spriteID: 3fdccd74672d5ba5eba2b19edf25de43
+      internalID: 1758911882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Viking-Sheet_188
+      name: Viking-Sheet_left_175
       rect:
         serializedVersion: 2
-        x: 1306
+        x: 378
+        y: 33
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2bff59d64ed216cae71515104b57f0
+      internalID: -1989568850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_176
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 13
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae547764a0d47968b16c03b42e1b711
+      internalID: -165741969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_177
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 39
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab9f34d570810b1c8122dbcc2c81920
+      internalID: 227181723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_178
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 13
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375cb5a256aee4d31847cc768f462b9e
+      internalID: -1059709961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_179
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 13
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4563d11e8816750b49f035d8fa0e92
+      internalID: -438906988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_180
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 13
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f6ed68fb9d3addfac7622f1a9369ed
+      internalID: -112993260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_181
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 13
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133c54ba7c998e861b35ae9acdc2ed6c
+      internalID: 1307552315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_182
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 13
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7327034b7cad0f60bb078490bd6803a
+      internalID: -1368184910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_183
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 40
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76eae69d54fa20bde91e0777d2765f79
+      internalID: -154170571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_184
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 13
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ef44b388602f5f9b57e750436be893
+      internalID: -424731357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_185
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 40
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cae72523ae648047b801a6b14732daf
+      internalID: -1361784748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_186
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 13
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bf9b0e2b06b238094217d300472765
+      internalID: 481632514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_187
+      rect:
+        serializedVersion: 2
+        x: 1305
         y: 13
         width: 33
         height: 46
@@ -4079,8 +4058,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cae0e325178a88e49631d82017d3d5e
-      internalID: 2097331515
+      spriteID: 5c76f3970a6b9c1ada15a251c35fd30d
+      internalID: -1320370244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Viking-Sheet_left_188
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 13
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1aeb250f16e2eb1aaecc9f1f47766c
+      internalID: -934856039
       vertices: []
       indices: 
       edges: []
@@ -4096,195 +4096,195 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Viking-Sheet_0: -1642748320
-      Viking-Sheet_1: 191767497
-      Viking-Sheet_10: 144781207
-      Viking-Sheet_100: -407655052
-      Viking-Sheet_101: -1732822060
-      Viking-Sheet_102: 58213626
-      Viking-Sheet_103: -2001074937
-      Viking-Sheet_104: -1165702579
-      Viking-Sheet_105: -163574767
-      Viking-Sheet_106: -1899611576
-      Viking-Sheet_107: 1765618651
-      Viking-Sheet_108: -1124691619
-      Viking-Sheet_109: 1964131901
-      Viking-Sheet_11: -813388772
-      Viking-Sheet_110: 470734172
-      Viking-Sheet_111: 1025468822
-      Viking-Sheet_112: -1581934375
-      Viking-Sheet_113: -1326860541
-      Viking-Sheet_114: 667967531
-      Viking-Sheet_115: 620915837
-      Viking-Sheet_116: -1610877306
-      Viking-Sheet_117: 748430062
-      Viking-Sheet_118: -1889532590
-      Viking-Sheet_119: -1039620739
-      Viking-Sheet_12: 1915885533
-      Viking-Sheet_120: 1985857199
-      Viking-Sheet_121: 66972672
-      Viking-Sheet_122: 513154554
-      Viking-Sheet_123: 645930249
-      Viking-Sheet_124: -1851872042
-      Viking-Sheet_125: 315549816
-      Viking-Sheet_126: 505861977
-      Viking-Sheet_127: 748096448
-      Viking-Sheet_128: -263603522
-      Viking-Sheet_129: 1758621013
-      Viking-Sheet_13: 470938276
-      Viking-Sheet_130: -1755871091
-      Viking-Sheet_131: 491131135
-      Viking-Sheet_132: -1045528890
-      Viking-Sheet_133: 2098245383
-      Viking-Sheet_134: 2068484285
-      Viking-Sheet_135: -1957717751
-      Viking-Sheet_136: -866414719
-      Viking-Sheet_137: -1577988623
-      Viking-Sheet_138: -208670732
-      Viking-Sheet_139: 1403962150
-      Viking-Sheet_14: -2067455284
-      Viking-Sheet_140: -422818764
-      Viking-Sheet_141: 2088507347
-      Viking-Sheet_142: 123184657
-      Viking-Sheet_143: -1520491162
-      Viking-Sheet_144: -725362402
-      Viking-Sheet_145: -1115488120
-      Viking-Sheet_146: 371582705
-      Viking-Sheet_147: -705580260
-      Viking-Sheet_148: 1518835173
-      Viking-Sheet_149: 712742353
-      Viking-Sheet_15: 565807469
-      Viking-Sheet_150: -1992188580
-      Viking-Sheet_151: 1874158733
-      Viking-Sheet_152: -663748958
-      Viking-Sheet_153: -76123990
-      Viking-Sheet_154: -730857908
-      Viking-Sheet_155: -1174441566
-      Viking-Sheet_156: 2136981619
-      Viking-Sheet_157: 1595437649
-      Viking-Sheet_158: 997828457
-      Viking-Sheet_159: -55959213
-      Viking-Sheet_16: 1958129498
-      Viking-Sheet_160: 424356394
-      Viking-Sheet_161: -1836373920
-      Viking-Sheet_162: -1830400755
-      Viking-Sheet_163: 1838640309
-      Viking-Sheet_164: 354992471
-      Viking-Sheet_165: 1409248917
-      Viking-Sheet_166: -262260172
-      Viking-Sheet_167: 671357433
-      Viking-Sheet_168: 1885482904
-      Viking-Sheet_169: -1475348817
-      Viking-Sheet_17: -702843080
-      Viking-Sheet_170: -1082786452
-      Viking-Sheet_171: -1876685479
-      Viking-Sheet_172: -1372753263
-      Viking-Sheet_173: -863365651
-      Viking-Sheet_174: -2108618654
-      Viking-Sheet_175: 2021392005
-      Viking-Sheet_176: 445593043
-      Viking-Sheet_177: 1285718306
-      Viking-Sheet_178: 61590062
-      Viking-Sheet_179: 42420326
-      Viking-Sheet_18: 148542042
-      Viking-Sheet_180: 1115727381
-      Viking-Sheet_181: 1336566702
-      Viking-Sheet_182: 1811577585
-      Viking-Sheet_183: -1272772090
-      Viking-Sheet_184: 1233950544
-      Viking-Sheet_185: 542119551
-      Viking-Sheet_186: -1239200993
-      Viking-Sheet_187: 530038838
-      Viking-Sheet_188: 2097331515
-      Viking-Sheet_19: 1294541502
-      Viking-Sheet_2: -1278906027
-      Viking-Sheet_20: 204603377
-      Viking-Sheet_21: -219080213
-      Viking-Sheet_22: -1077029401
-      Viking-Sheet_23: 342066333
-      Viking-Sheet_24: -1928684051
-      Viking-Sheet_25: -1184545961
-      Viking-Sheet_26: 1089944867
-      Viking-Sheet_27: 48938760
-      Viking-Sheet_28: 863998148
-      Viking-Sheet_29: 1964617613
-      Viking-Sheet_3: 1476836937
-      Viking-Sheet_30: -74463965
-      Viking-Sheet_31: 126000274
-      Viking-Sheet_32: 387267464
-      Viking-Sheet_33: 1540803428
-      Viking-Sheet_34: -390445461
-      Viking-Sheet_35: 59404642
-      Viking-Sheet_36: -451313295
-      Viking-Sheet_37: 605654165
-      Viking-Sheet_38: 491085399
-      Viking-Sheet_39: -700354348
-      Viking-Sheet_4: -992215560
-      Viking-Sheet_40: -48968784
-      Viking-Sheet_41: -1358593802
-      Viking-Sheet_42: -1478660820
-      Viking-Sheet_43: -763947517
-      Viking-Sheet_44: -385854077
-      Viking-Sheet_45: -1802231388
-      Viking-Sheet_46: -2088217764
-      Viking-Sheet_47: -1895627056
-      Viking-Sheet_48: -978591083
-      Viking-Sheet_49: 531466049
-      Viking-Sheet_5: -1194190804
-      Viking-Sheet_50: 1676498981
-      Viking-Sheet_51: 1572965597
-      Viking-Sheet_52: 2051971545
-      Viking-Sheet_53: -1427585493
-      Viking-Sheet_54: -1878161613
-      Viking-Sheet_55: 911191924
-      Viking-Sheet_56: -1478143079
-      Viking-Sheet_57: 2049934234
-      Viking-Sheet_58: 967147237
-      Viking-Sheet_59: 2088172525
-      Viking-Sheet_6: 854287926
-      Viking-Sheet_60: 1187326388
-      Viking-Sheet_61: 2012559074
-      Viking-Sheet_62: 1777460615
-      Viking-Sheet_63: 2002707024
-      Viking-Sheet_64: 2027422227
-      Viking-Sheet_65: -1967446728
-      Viking-Sheet_66: -1221999244
-      Viking-Sheet_67: -310528624
-      Viking-Sheet_68: -832722055
-      Viking-Sheet_69: -2042752440
-      Viking-Sheet_7: 1958140103
-      Viking-Sheet_70: -364646190
-      Viking-Sheet_71: -1841643861
-      Viking-Sheet_72: 460981899
-      Viking-Sheet_73: 635571716
-      Viking-Sheet_74: 960755506
-      Viking-Sheet_75: -1673863525
-      Viking-Sheet_76: -944304731
-      Viking-Sheet_77: -1805583709
-      Viking-Sheet_78: 1965951098
-      Viking-Sheet_79: -1351258521
-      Viking-Sheet_8: -353000010
-      Viking-Sheet_80: 317932937
-      Viking-Sheet_81: 623083856
-      Viking-Sheet_82: -1728187057
-      Viking-Sheet_83: -1650912316
-      Viking-Sheet_84: -1722642341
-      Viking-Sheet_85: -637082338
-      Viking-Sheet_86: 1196725534
-      Viking-Sheet_87: -814652981
-      Viking-Sheet_88: 1805505776
-      Viking-Sheet_89: -2088440332
-      Viking-Sheet_9: -893075439
-      Viking-Sheet_90: 755724246
-      Viking-Sheet_91: 1923870966
-      Viking-Sheet_92: 1202226281
-      Viking-Sheet_93: 742484191
-      Viking-Sheet_94: -1643739554
-      Viking-Sheet_95: 2063299120
-      Viking-Sheet_96: 1600738623
-      Viking-Sheet_97: -421930695
-      Viking-Sheet_98: -1893717842
-      Viking-Sheet_99: 1837683437
+      Viking-Sheet_left_0: -238947188
+      Viking-Sheet_left_1: 790900752
+      Viking-Sheet_left_10: 933909577
+      Viking-Sheet_left_100: 151106479
+      Viking-Sheet_left_101: 1642108018
+      Viking-Sheet_left_102: 1743620300
+      Viking-Sheet_left_103: 857163908
+      Viking-Sheet_left_104: -217482252
+      Viking-Sheet_left_105: -1211857977
+      Viking-Sheet_left_106: -535997321
+      Viking-Sheet_left_107: -297582746
+      Viking-Sheet_left_108: -444878651
+      Viking-Sheet_left_109: 536692010
+      Viking-Sheet_left_11: -974077254
+      Viking-Sheet_left_110: -1637739484
+      Viking-Sheet_left_111: -480433300
+      Viking-Sheet_left_112: -1547880724
+      Viking-Sheet_left_113: -1022271062
+      Viking-Sheet_left_114: -186329891
+      Viking-Sheet_left_115: 2014641100
+      Viking-Sheet_left_116: -2100181120
+      Viking-Sheet_left_117: -1863680961
+      Viking-Sheet_left_118: 540681261
+      Viking-Sheet_left_119: -437897648
+      Viking-Sheet_left_12: -1439706403
+      Viking-Sheet_left_120: -437446954
+      Viking-Sheet_left_121: 1787288977
+      Viking-Sheet_left_122: 599089943
+      Viking-Sheet_left_123: 424040890
+      Viking-Sheet_left_124: 1483553337
+      Viking-Sheet_left_125: 1650941468
+      Viking-Sheet_left_126: -2140800715
+      Viking-Sheet_left_127: 1429513612
+      Viking-Sheet_left_128: -991728939
+      Viking-Sheet_left_129: -1991420247
+      Viking-Sheet_left_13: 854818573
+      Viking-Sheet_left_130: 643619039
+      Viking-Sheet_left_131: -342628111
+      Viking-Sheet_left_132: -1467775403
+      Viking-Sheet_left_133: -148680595
+      Viking-Sheet_left_134: -468289472
+      Viking-Sheet_left_135: 132737340
+      Viking-Sheet_left_136: 1944626756
+      Viking-Sheet_left_137: 555083201
+      Viking-Sheet_left_138: -215150162
+      Viking-Sheet_left_139: -1366431514
+      Viking-Sheet_left_14: 1020551780
+      Viking-Sheet_left_140: 1501511094
+      Viking-Sheet_left_141: -15387963
+      Viking-Sheet_left_142: 905623189
+      Viking-Sheet_left_143: -1738194506
+      Viking-Sheet_left_144: -1852736811
+      Viking-Sheet_left_145: 1931534227
+      Viking-Sheet_left_146: 549664823
+      Viking-Sheet_left_147: -911438494
+      Viking-Sheet_left_148: -1397507052
+      Viking-Sheet_left_149: -254551390
+      Viking-Sheet_left_15: -1754362240
+      Viking-Sheet_left_150: 732019143
+      Viking-Sheet_left_151: -438550541
+      Viking-Sheet_left_152: -1445371420
+      Viking-Sheet_left_153: 486959284
+      Viking-Sheet_left_154: -615835632
+      Viking-Sheet_left_155: 24455626
+      Viking-Sheet_left_156: -1170316774
+      Viking-Sheet_left_157: -878008998
+      Viking-Sheet_left_158: 1176692409
+      Viking-Sheet_left_159: -647367587
+      Viking-Sheet_left_16: -1273520170
+      Viking-Sheet_left_160: -615416551
+      Viking-Sheet_left_161: -1592193110
+      Viking-Sheet_left_162: 520940879
+      Viking-Sheet_left_163: -1034934156
+      Viking-Sheet_left_164: -1273016323
+      Viking-Sheet_left_165: -882520396
+      Viking-Sheet_left_166: -326451797
+      Viking-Sheet_left_167: -528103609
+      Viking-Sheet_left_168: -2031835908
+      Viking-Sheet_left_169: 1441584424
+      Viking-Sheet_left_17: 1720487623
+      Viking-Sheet_left_170: -1123203416
+      Viking-Sheet_left_171: 473125414
+      Viking-Sheet_left_172: 89717850
+      Viking-Sheet_left_173: 795922582
+      Viking-Sheet_left_174: 1758911882
+      Viking-Sheet_left_175: -1989568850
+      Viking-Sheet_left_176: -165741969
+      Viking-Sheet_left_177: 227181723
+      Viking-Sheet_left_178: -1059709961
+      Viking-Sheet_left_179: -438906988
+      Viking-Sheet_left_18: 1395175259
+      Viking-Sheet_left_180: -112993260
+      Viking-Sheet_left_181: 1307552315
+      Viking-Sheet_left_182: -1368184910
+      Viking-Sheet_left_183: -154170571
+      Viking-Sheet_left_184: -424731357
+      Viking-Sheet_left_185: -1361784748
+      Viking-Sheet_left_186: 481632514
+      Viking-Sheet_left_187: -1320370244
+      Viking-Sheet_left_188: -934856039
+      Viking-Sheet_left_19: -1466653981
+      Viking-Sheet_left_2: -1806194193
+      Viking-Sheet_left_20: -1447990428
+      Viking-Sheet_left_21: 2129568361
+      Viking-Sheet_left_22: 1755134421
+      Viking-Sheet_left_23: -1714280471
+      Viking-Sheet_left_24: -966324144
+      Viking-Sheet_left_25: -489118604
+      Viking-Sheet_left_26: 138406997
+      Viking-Sheet_left_27: 1203706880
+      Viking-Sheet_left_28: -789503779
+      Viking-Sheet_left_29: -138005931
+      Viking-Sheet_left_3: -1496523498
+      Viking-Sheet_left_30: 735404919
+      Viking-Sheet_left_31: -701792349
+      Viking-Sheet_left_32: 1514567996
+      Viking-Sheet_left_33: 1350388507
+      Viking-Sheet_left_34: 1984562819
+      Viking-Sheet_left_35: 1742658314
+      Viking-Sheet_left_36: 2096519501
+      Viking-Sheet_left_37: 2872254
+      Viking-Sheet_left_38: -606401663
+      Viking-Sheet_left_39: -1691940815
+      Viking-Sheet_left_4: -1104037539
+      Viking-Sheet_left_40: 1752505777
+      Viking-Sheet_left_41: -111895160
+      Viking-Sheet_left_42: 274363994
+      Viking-Sheet_left_43: -888844231
+      Viking-Sheet_left_44: 1646075342
+      Viking-Sheet_left_45: 109956559
+      Viking-Sheet_left_46: -1175043088
+      Viking-Sheet_left_47: 51233949
+      Viking-Sheet_left_48: -1909981463
+      Viking-Sheet_left_49: -85516691
+      Viking-Sheet_left_5: -1834814952
+      Viking-Sheet_left_50: 935177763
+      Viking-Sheet_left_51: -801728493
+      Viking-Sheet_left_52: -410826685
+      Viking-Sheet_left_53: 1668790428
+      Viking-Sheet_left_54: -1074183322
+      Viking-Sheet_left_55: 698481478
+      Viking-Sheet_left_56: 142637496
+      Viking-Sheet_left_57: 855128595
+      Viking-Sheet_left_58: 2005808763
+      Viking-Sheet_left_59: -1972921796
+      Viking-Sheet_left_6: 1493534836
+      Viking-Sheet_left_60: 769816802
+      Viking-Sheet_left_61: -2050010557
+      Viking-Sheet_left_62: 1808231390
+      Viking-Sheet_left_63: 677037096
+      Viking-Sheet_left_64: 337143315
+      Viking-Sheet_left_65: -1814216017
+      Viking-Sheet_left_66: 109925776
+      Viking-Sheet_left_67: -640963106
+      Viking-Sheet_left_68: -1946963987
+      Viking-Sheet_left_69: -1310221003
+      Viking-Sheet_left_7: -2051167854
+      Viking-Sheet_left_70: 1701744516
+      Viking-Sheet_left_71: 326331617
+      Viking-Sheet_left_72: -255035456
+      Viking-Sheet_left_73: 2014168593
+      Viking-Sheet_left_74: 847578155
+      Viking-Sheet_left_75: 859892661
+      Viking-Sheet_left_76: 2123698579
+      Viking-Sheet_left_77: -1269891106
+      Viking-Sheet_left_78: -1660166783
+      Viking-Sheet_left_79: -700370740
+      Viking-Sheet_left_8: -2039436892
+      Viking-Sheet_left_80: 638350612
+      Viking-Sheet_left_81: 888534433
+      Viking-Sheet_left_82: 56448883
+      Viking-Sheet_left_83: -1354095847
+      Viking-Sheet_left_84: -1916822894
+      Viking-Sheet_left_85: 1031996562
+      Viking-Sheet_left_86: -1769222906
+      Viking-Sheet_left_87: -877658051
+      Viking-Sheet_left_88: 2070993962
+      Viking-Sheet_left_89: -864616805
+      Viking-Sheet_left_9: -2144280961
+      Viking-Sheet_left_90: 236485142
+      Viking-Sheet_left_91: -732128663
+      Viking-Sheet_left_92: 966716165
+      Viking-Sheet_left_93: 635685193
+      Viking-Sheet_left_94: -1762654351
+      Viking-Sheet_left_95: 1790035983
+      Viking-Sheet_left_96: 931831147
+      Viking-Sheet_left_97: -792479819
+      Viking-Sheet_left_98: -2065669103
+      Viking-Sheet_left_99: -1145667392
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
