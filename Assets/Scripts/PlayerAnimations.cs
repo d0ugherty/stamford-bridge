@@ -63,7 +63,7 @@ public class PlayerAnimations : MonoBehaviour
     ** the attack trigger is reset before the animation can play
     */
     private IEnumerator DelayTriggerReset(string triggerName){
-        while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f) {
+        while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 0.5f) {
                 yield return null;
         }
         animator.ResetTrigger(triggerName);

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class HitDetection : MonoBehaviour
+public class PlayerHitDetection : MonoBehaviour
 {
     public GameManager gameManager;
     public SpawnManager spawnManager;
@@ -35,6 +35,15 @@ public class HitDetection : MonoBehaviour
             flash.TakeHit(enemyRenderer);
             DestroyEnemyObject(other.gameObject);
         }
+    }
+
+    private void PushEnemy(Collider2D other){
+        Vector2 playerPosition = transform.position; 
+        Vector2 enemyPosition = other.transform.position;
+        Vector2 pushDirection = (enemyPosition - playerPosition).normalized;
+        Rigidbody2D enemyRigidbody = other.gameObject.GetComponent<Rigidbody2D>();
+        float pushForce = 10f; 
+        enemyRigidbody.AddForce(pushDirection * pushForce, ForceMode2D.Impulse);
     }
 
     private void DestroyEnemyObject(GameObject enemy) {

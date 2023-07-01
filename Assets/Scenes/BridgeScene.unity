@@ -11892,6 +11892,7 @@ GameObject:
   - component: {fileID: 2079242887}
   - component: {fileID: 2079242889}
   - component: {fileID: 2079242890}
+  - component: {fileID: 2079242891}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -12181,6 +12182,20 @@ MonoBehaviour:
   animator: {fileID: 2079242884}
   horizontalInput: 0
   verticalInput: 0
+--- !u!114 &2079242891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079242876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2826b5777373baa6b1d60b76d93dc93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSprite: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  flashMaterial: {fileID: 2100000, guid: da0b1b74df52655f9b7f2cd4bf36be1b, type: 2}
 --- !u!1 &2097734536
 GameObject:
   m_ObjectHideFlags: 0
