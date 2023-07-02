@@ -74,10 +74,11 @@ public class PlayerAnimations : MonoBehaviour
         ResetTriggerDelayed("PlayerAttack");
     }
 
+    /** Block/shield animation trigger 
+    **/
     private void Block() {
-        
-        animator.SetTrigger("Block");
-}
+        animator.SetBool("Block", true);
+    }
 
     /** Coroutine & method to invoke the coroutine to delay the trigger reset
     **  if ResetTrigger() is called without a delay, the 

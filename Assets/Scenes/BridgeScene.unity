@@ -12047,6 +12047,7 @@ GameObject:
   - component: {fileID: 2079242889}
   - component: {fileID: 2079242890}
   - component: {fileID: 2079242891}
+  - component: {fileID: 2079242892}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -12068,6 +12069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   animator: {fileID: 0}
+  movementInput: {x: 0, y: 0}
 --- !u!61 &2079242879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12320,7 +12322,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitzonePrefab: {fileID: 1062591953411174161, guid: 8bfb3fff3b84a273dac08b9e09d074b7, type: 3}
   player: {fileID: 2079242876}
-  playerInput: {fileID: 2079242882}
+  movementInput: {x: 0, y: 0}
+  attackAction:
+    m_Name: Attack
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 556713f1-c8c7-4a5c-b20d-49d02755a950
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 97e8a7fe-4971-4695-ac4f-91febbd61b67
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Attack
+      m_Flags: 0
+    m_Flags: 0
 --- !u!114 &2079242890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12334,8 +12353,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2079242884}
-  horizontalInput: 0
-  verticalInput: 0
+  attackAction:
+    m_Name: Attack
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3996445c-5477-4fb9-a68f-467e96855c33
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: d088907b-dbb2-4e5a-9783-6f97e9fed402
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Attack
+      m_Flags: 0
+    m_Flags: 0
+  blockAction:
+    m_Name: Block
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 9981dd07-65c1-4007-bb87-ac07b36857b1
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: e3f1e927-1d27-43f7-ad6c-ad0d4f37552b
+      m_Path: <Keyboard>/leftCtrl
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Block
+      m_Flags: 0
+    m_Flags: 0
+  movementInput: {x: 0, y: 0}
 --- !u!114 &2079242891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12350,6 +12402,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultSprite: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   flashMaterial: {fileID: 2100000, guid: da0b1b74df52655f9b7f2cd4bf36be1b, type: 2}
+--- !u!114 &2079242892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079242876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cac2adaa26bd7b73bfcae5f86241762, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 165d5c56-b692-44c4-ad09-32b3c74e4dc3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  isBlocking: 0
 --- !u!1 &2097734536
 GameObject:
   m_ObjectHideFlags: 0

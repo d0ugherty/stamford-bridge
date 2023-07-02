@@ -11,14 +11,7 @@ public class PlayerHitDetection : MonoBehaviour
     private EnemyMovement enemyMovement;
     private Flash flash;
     public Renderer enemyRenderer;
-
     
-    //public Collider2D enemyCollider;
-    //public Collider2D playerHitZone;
-
-    //public string objectToDestroy = "Enemy";
-
-    // Start is called before the first frame update
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();

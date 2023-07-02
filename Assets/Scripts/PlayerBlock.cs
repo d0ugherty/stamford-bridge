@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerBlock : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
+    public InputAction blockAction;
+    public bool isBlocking;
+
     void Start()
     {
         
@@ -13,6 +17,18 @@ public class PlayerBlock : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(blockAction.triggered){
+            isBlocking = true;
+        } else {
+            isBlocking = false;
+        }
+    }
+
+    private void OnEnable(){
+        blockAction.Enable();
+    }
+
+    private void OnDisable(){
+        blockAction.Disable();
     }
 }

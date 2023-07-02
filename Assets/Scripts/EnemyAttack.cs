@@ -6,8 +6,10 @@ public class EnemyAttack : MonoBehaviour
 {
     public GameObject hitzonePrefab;
     public GameObject clone;
+    public bool playerBlocking;
     private EnemyMovement mv;
     private GameObject player;
+
 
 
     // Start is called before the first frame update
@@ -26,24 +28,14 @@ public class EnemyAttack : MonoBehaviour
     }
 
     private void Attack(){
-        Flash flash = player.gameObject.GetComponent<Flash>();
-        Renderer playerRenderer = player.gameObject.GetComponent<Renderer>();
-        flash.TakeHit(playerRenderer);
+        playerBlocking = player.GetComponent<PlayerBlock>().isBlocking;
+        if(!playerBlocking){
+            Flash flash = player.gameObject.GetComponent<Flash>();
+            Renderer playerRenderer = player.gameObject.GetComponent<Renderer>();
+            flash.TakeHit(playerRenderer);
+        } else {
+            Debug.Log("Player blocked the attack");
+        }
     }
-
-    /*private void Attack(){
-        Vector2 spawnPosition = gameObject.transform.position;
-        if(mv.lastXMovement > 0.0f) {
-            spawnPosition += Vector2.right;
-        } else if (mv.lastXMovement < 0.0f) {
-            spawnPosition += Vector2.left;
-        }
-        
-        //clone = Instantiate(hitzonePrefab, spawnPosition, Quaternion.identity);
-        
-         if (clone != null) {
-            Destroy(clone, 0.3f);
-        }
-    }*/
 
 }
