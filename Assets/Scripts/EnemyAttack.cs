@@ -36,7 +36,7 @@ public class EnemyAttack : MonoBehaviour
             Flash flash = player.gameObject.GetComponent<Flash>();
             Renderer playerRenderer = player.gameObject.GetComponent<Renderer>();
             flash.TakeHit(playerRenderer);
-            gameManager.SetHitsTaken(1);
+            gameManager.DecHP();
         } else {
             gameManager.SetAttksBlocked(1);
             Debug.Log("Player blocked the attack");

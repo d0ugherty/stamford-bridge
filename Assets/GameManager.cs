@@ -9,12 +9,13 @@ public class GameManager : MonoBehaviour
 {
     public int score;
     public int hitsTaken;
-    public TextMeshProUGUI hitsTxt;
+    public TextMeshProUGUI hpTxt;
     public TextMeshProUGUI scoreText;
     public int enemiesCrossed;
     public TextMeshProUGUI enemiesCrossedTxt;
     public int atksBlocked;
     public TextMeshProUGUI atksBlockedTxt;
+    private string hpString;
     
 
     // Start is called before the first frame update
@@ -24,8 +25,9 @@ public class GameManager : MonoBehaviour
         UpdateScoreText();
         enemiesCrossed = 0;
         UpdateCrossedTxt();
-        hitsTaken = 0;
-        UpdateHitsTxt();
+        //hitsTaken = 0;
+        hpString = "zZzZzZzZzZ";
+        UpdateHPTxt();
         atksBlocked = 0;
         UpdateAtksBlockedTxt();
     }
@@ -49,10 +51,6 @@ public class GameManager : MonoBehaviour
         UpdateCrossedTxt();
     }
 
-    public void SetHitsTaken(int n) {
-        hitsTaken += n;
-        UpdateHitsTxt();
-    }
 
     public void SetAttksBlocked(int n) {
         atksBlocked += n;
@@ -67,8 +65,8 @@ public class GameManager : MonoBehaviour
         enemiesCrossedTxt.text = "Foemen Crossed: " + enemiesCrossed;
     }
 
-    private void UpdateHitsTxt(){
-        hitsTxt.text = "Hits Taken " + hitsTaken;
+    private void UpdateHPTxt(){
+        hpTxt.text = hpString;
     }
 
     private void UpdateAtksBlockedTxt(){
@@ -77,5 +75,19 @@ public class GameManager : MonoBehaviour
 
     private void GameOver(){
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void DecHP(){
+        hpString = TrimLastCharacter(hpString);
+        UpdateHPTxt();
+    }
+
+
+    private static string TrimLastCharacter(string hpString) {
+        if (string.IsNullOrEmpty(hpString) ||hpString.Length == 1){
+            return string.Empty;
+        } else {
+            return hpString.Substring(0, hpString.Length - 1);
+        }
     }
 }
