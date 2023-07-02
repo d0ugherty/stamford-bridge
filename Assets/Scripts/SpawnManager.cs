@@ -28,7 +28,7 @@ public class SpawnManager : MonoBehaviour
     {
         if(currentEnemies < maxEnemies) {
             value = Random.Range(0f,1f);
-          //  Spawn(value);
+            Spawn(value);
         }
        
     }

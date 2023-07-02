@@ -85,7 +85,7 @@ public class EnemyMovement : MonoBehaviour
         } else {
             Vector2 direction = playerPosition - enemyPosition;
             movementSpeed = 0.0f;
-            Debug.Log("enemy object should stop");
+           // Debug.Log("enemy object should stop");
             direction.Normalize();
         }
     }
@@ -109,7 +109,7 @@ public class EnemyMovement : MonoBehaviour
 **  Used for attack implementation, movement, and animation control
 **/
     public bool IsInAtkDistance(){
-        if(distToPlayer <= 2.0f){
+        if(distToPlayer <= 2.5f){
             return true;
         } else {
             //movementSpeed = 3.0f;

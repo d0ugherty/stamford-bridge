@@ -8,6 +8,7 @@ public class PlayerBlock : MonoBehaviour
     
     public InputAction blockAction;
     public bool isBlocking;
+    private bool isBlockBtnDown;
 
     void Start()
     {
@@ -17,18 +18,41 @@ public class PlayerBlock : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(blockAction.triggered){
-            isBlocking = true;
+        if(isBlockBtnDown) {
+            Block();
         } else {
-            isBlocking = false;
-        }
+            EndBlock();
+       }
     }
 
     private void OnEnable(){
         blockAction.Enable();
+        //button hold implementation
+        blockAction.started += OnBlockButtonDown;
+        blockAction.canceled += OnBlockButtonUp;
     }
 
     private void OnDisable(){
         blockAction.Disable();
+        // button hold implementation
+        blockAction.started -= OnBlockButtonDown;   
+        blockAction.canceled -= OnBlockButtonDown;
+    }
+
+    private void OnBlockButtonDown(InputAction.CallbackContext context) {
+        isBlockBtnDown = true;
+    }
+
+    private void OnBlockButtonUp(InputAction.CallbackContext context) {
+        isBlockBtnDown = false;
+    }
+
+    private void Block() {
+        isBlocking = true;
+        Debug.Log("Player is blocking");
+    }
+
+    private void EndBlock() {
+        isBlocking = false;
     }
 }

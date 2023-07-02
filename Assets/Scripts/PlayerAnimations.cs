@@ -8,12 +8,12 @@ public class PlayerAnimations : MonoBehaviour
     public InputAction attackAction;
     public InputAction blockAction;
     private PlayerInput playerInput;
+    private bool isBlockBtnDown;
     public Vector2 movementInput;
 
 
     private void Awake() {
-        //playerInput = GetComponent<PlayerInput>();
-        //movementInput = GetComponent<PlayerMovement>().movementInput;
+        
     }
 
     private void Update() {
@@ -27,21 +27,27 @@ public class PlayerAnimations : MonoBehaviour
             Attack();
         }
 
-        if(blockAction.triggered) {
-            Debug.Log("block action triggered");
+        if(isBlockBtnDown) {
             Block();
+        } else {
+            EndBlock();
         }
-        
     }
 
     private void OnEnable() {
         attackAction.Enable();
         blockAction.Enable();
+
+        blockAction.started += OnBlockButtonDown;
+        blockAction.canceled += OnBlockButtonUp;  
     }
 
     private void OnDisable() {
         attackAction.Disable();
         blockAction.Disable();
+
+        blockAction.started -= OnBlockButtonDown;
+        blockAction.canceled -= OnBlockButtonUp;
     }
 
     /** Detect vertical and horizontal input
@@ -79,6 +85,19 @@ public class PlayerAnimations : MonoBehaviour
     private void Block() {
         animator.SetBool("Block", true);
     }
+
+    private void OnBlockButtonDown(InputAction.CallbackContext context){
+        isBlockBtnDown = true;
+    }
+
+    private void OnBlockButtonUp(InputAction.CallbackContext context){
+        isBlockBtnDown = false;
+    }
+
+    private void EndBlock() {
+        animator.SetBool("Block", false);
+    }
+
 
     /** Coroutine & method to invoke the coroutine to delay the trigger reset
     **  if ResetTrigger() is called without a delay, the 
