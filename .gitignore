@@ -71,3 +71,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+/stamford-bridge_Data
+/stamford-bridge_BurstDebugInformation
+*.blob
+stamford-bridge.x86_64
+
