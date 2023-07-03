@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public int score;
     public int hitsTaken;
+    public AudioManager audioManager;
     public TextMeshProUGUI hpTxt;
     public TextMeshProUGUI scoreText;
     public int enemiesCrossed;
@@ -30,6 +31,7 @@ public class GameManager : MonoBehaviour
         UpdateHPTxt();
         atksBlocked = 0;
         UpdateAtksBlockedTxt();
+        audioManager.Play("Battle");
     }
 
     // Update is called once per frame

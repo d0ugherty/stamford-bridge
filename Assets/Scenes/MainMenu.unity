@@ -516,7 +516,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.9433962, g: 0.7995826, b: 0.4672481, a: 0.7647059}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -799,6 +799,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405313192}
   m_CullTransparentMesh: 1
+--- !u!1001 &1440897585
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2818294595404103924, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: sounds.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103924, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8ec8b10d8522ce4b5bc4ba253dd534f8, type: 3}
+    - target: {fileID: 2818294595404103924, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: sounds.Array.data[0].name
+      value: Hakkerskaldyr
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103925, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_Name
+      value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103926, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103926, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8ec8b10d8522ce4b5bc4ba253dd534f8, type: 3}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.09010148
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.748914
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.045446277
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818294595404103927, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 020bc2f893b2114648bfff35028ed8f1, type: 3}
 --- !u!1 &1547274404
 GameObject:
   m_ObjectHideFlags: 0
