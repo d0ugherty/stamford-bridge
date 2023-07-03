@@ -11,16 +11,20 @@ public class SpawnManager : MonoBehaviour
     public GameObject enemy_atk;
     public Transform min;
     public Transform max;
+    public GameObject arrow;
+    public Transform arrowMin;
+    public Transform arrowMax;
 
     private int maxEnemies;
     private float value;
     public int currentEnemies;
+    public float spawnInterval = 2.0f;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
-        setrate = rate;
-        maxEnemies = 1;
+        maxEnemies = 6;
+        InvokeRepeating("SpawnArrow", 0.0f, spawnInterval);
     }
 
     // Update is called once per frame
@@ -30,7 +34,6 @@ public class SpawnManager : MonoBehaviour
             value = Random.Range(0f,1f);
             Spawn(value);
         }
-       
     }
 
     /** Spawn enemies 
@@ -46,16 +49,10 @@ public class SpawnManager : MonoBehaviour
         Vector3 randomPos = new Vector3(randomPosX, randomPosY, transform.position.z);
     
         if(value > 0.5) {
-            /*GameObject clone = Instantiate(enemy_run, randomPos, Quaternion.identity);
+            GameObject clone = Instantiate(enemy_run, randomPos, Quaternion.identity);
             clone.tag = "Enemy";
 
             clone.AddComponent<EnemyType>().SetType("Runner");
-            clone.name = "Enemy_" + clone.GetType();
-            currentEnemies++;*/
-             GameObject clone = Instantiate(enemy_atk, randomPos, Quaternion.identity);
-            clone.tag = "Enemy";
-    
-            clone.AddComponent<EnemyType>().SetType("Fighter");
             clone.name = "Enemy_" + clone.GetType();
             currentEnemies++;
 
@@ -67,12 +64,6 @@ public class SpawnManager : MonoBehaviour
             clone.name = "Enemy_" + clone.GetType();
             currentEnemies++;
         }
-
-        /*if (difficulty >= setrate / 2) {
-            difficulty = setrate / 2;
-        } else {
-            difficulty += difficulty;
-        }*/
     }
 
     public void SetCurrentEnemies(int number){
@@ -80,10 +71,24 @@ public class SpawnManager : MonoBehaviour
         Debug.Log("Current enemies: " + currentEnemies);
     }
 
+    public void SpawnArrow(){
+        float randomPosX = Random.Range(arrowMin.position.x, arrowMax.position.x);
+        float randomPosY = Random.Range(arrowMin.position.y, arrowMax.position.y);
+        Vector3 randomPos = new Vector3(randomPosX, randomPosY, transform.position.z);
+
+        GameObject clone = Instantiate(arrow, randomPos, Quaternion.identity);
+    }
+
     /** Generate a unique ID for each enemy object
     **  Used for hit detection 
     **/
     private int GenerateId(){
         return Random.Range(1000,10000);
+    }
+
+      private IEnumerator ArrowCoroutine(){
+        SpawnArrow();
+        yield return new WaitForSeconds(2.0f);
+        
     }
 }

@@ -26,18 +26,18 @@ public class GameManager : MonoBehaviour
         UpdateScoreText();
         enemiesCrossed = 0;
         UpdateCrossedTxt();
-        //hitsTaken = 0;
+        hitsTaken = 0;
         hpString = "zZzZzZzZzZ";
         UpdateHPTxt();
         atksBlocked = 0;
-        UpdateAtksBlockedTxt();
+        //UpdateAtksBlockedTxt();
         audioManager.Play("Battle");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(enemiesCrossed >= 15) {
+        if(enemiesCrossed >= 15 || hitsTaken >= 10) {
             GameOver();
         }
         
@@ -81,6 +81,7 @@ public class GameManager : MonoBehaviour
 
     public void DecHP(){
         hpString = TrimLastCharacter(hpString);
+        hitsTaken++;
         UpdateHPTxt();
     }
 

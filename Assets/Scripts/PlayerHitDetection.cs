@@ -8,6 +8,7 @@ public class PlayerHitDetection : MonoBehaviour
 {
     public GameManager gameManager;
     public SpawnManager spawnManager;
+    public AudioManager audioManager;
     private EnemyMovement enemyMovement;
     private Flash flash;
     public Renderer enemyRenderer;
@@ -16,6 +17,7 @@ public class PlayerHitDetection : MonoBehaviour
     {
         gameManager = FindObjectOfType<GameManager>();
         spawnManager = gameManager.GetComponent<SpawnManager>();
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     void OnTriggerEnter2D(Collider2D other){
@@ -25,8 +27,11 @@ public class PlayerHitDetection : MonoBehaviour
             enemyMovement.movementSpeed = 0;
             
             flash = other.gameObject.GetComponent<Flash>();
+            audioManager.Play("sword3");
             flash.TakeHit(enemyRenderer);
             DestroyEnemyObject(other.gameObject);
+        } else {
+            audioManager.Play("swish1");
         }
     }
 

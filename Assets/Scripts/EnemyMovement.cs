@@ -41,20 +41,6 @@ public class EnemyMovement : MonoBehaviour
 
     }
 
-    /** Trying to stop the enemy object from moving towards the 
-    *** player when colliding. Looks kind of janky at the moment
-    **  
-    **/
-    /*void OnCollision2DEnter(Collision2D collision){
-        if(collision.gameObject.CompareTag("Player")){
-            //isMoving = false;
-            Rigidbody2D rb = GetComponent<Rigidbody2D>();
-            if(rb != null){
-                rb.velocity  = Vector2.zero;
-            }
-        }
-    }*/
-
     private void Move(){
          if(type == "Fighter") {
             MoveTowardsPlayer();

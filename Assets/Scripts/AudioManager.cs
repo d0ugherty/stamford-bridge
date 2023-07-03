@@ -12,13 +12,12 @@ public class AudioManager : MonoBehaviour
     void Awake()
     {
         foreach (Sound sound in sounds) {
-            if (sound.source != null) {
-                sound.source = gameObject.GetComponent<AudioSource>();
+                sound.source = gameObject.AddComponent<AudioSource>();
                 sound.source.clip = sound.clip;
 
                 sound.source.volume = sound.volume;
                 sound.source.pitch = sound.pitch;
-            }
+            
         }
     }
 
@@ -35,6 +34,9 @@ public class AudioManager : MonoBehaviour
             return;
         }
         Debug.Log($"Playing sound: {name}");
+        if(name == "Battle") {
+            sound.source.loop = true;
+        }
         sound.source.Play();
     }
 }

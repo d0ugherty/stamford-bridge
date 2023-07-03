@@ -6,6 +6,7 @@ public class EnemyAttack : MonoBehaviour
 {
     public GameObject hitzonePrefab;
     public GameObject clone;
+    public AudioManager audioManager;
     public bool playerBlocking;
     private bool isAttacking;
     private EnemyMovement mv;
@@ -20,6 +21,7 @@ public class EnemyAttack : MonoBehaviour
         mv = gameObject.GetComponent<EnemyMovement>();
         player = GameObject.FindGameObjectWithTag("Player");
         gameManager = FindObjectOfType<GameManager>();
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     // Update is called once per frame
@@ -35,10 +37,11 @@ public class EnemyAttack : MonoBehaviour
         if(!playerBlocking){
             Flash flash = player.gameObject.GetComponent<Flash>();
             Renderer playerRenderer = player.gameObject.GetComponent<Renderer>();
+            audioManager.Play("sword2");
             flash.TakeHit(playerRenderer);
             gameManager.DecHP();
         } else {
-            gameManager.SetAttksBlocked(1);
+            audioManager.Play("sword4");
             Debug.Log("Player blocked the attack");
         }
     }
