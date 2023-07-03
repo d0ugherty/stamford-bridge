@@ -75,4 +75,6 @@ crashlytics-build.properties
 /stamford-bridge_BurstDebugInformation
 *.blob
 stamford-bridge.x86_64
-
+stamford-bridge-exec
+dougherty-stamford-bridge-exec.zip
+UnityPlayer.so
