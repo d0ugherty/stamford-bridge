@@ -27,14 +27,6 @@ public class EnemyAtkAnimations : MonoBehaviour
         }
     }
 
-     /*void OnCollisionEnter2D(Collision2D collision){
-        if(collision.gameObject.CompareTag("Player")){
-           Attack();
-        } else {
-            animator.SetBool("IsAttacking", false);
-        }
-     }*/
-     
      private void Attack(){
         animator.SetTrigger("Attack");
         ResetTriggerDelayed("Attack");
