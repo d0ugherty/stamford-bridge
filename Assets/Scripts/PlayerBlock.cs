@@ -9,12 +9,7 @@ public class PlayerBlock : MonoBehaviour
     public InputAction blockAction;
     public bool isBlocking;
     private bool isBlockBtnDown;
-
-    void Start()
-    {
-        
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
