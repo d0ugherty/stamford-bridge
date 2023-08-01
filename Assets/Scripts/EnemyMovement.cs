@@ -38,7 +38,6 @@ public class EnemyMovement : MonoBehaviour
     {
         TrackMovement();
         Move();
-
     }
 
     private void Move(){
@@ -71,7 +70,6 @@ public class EnemyMovement : MonoBehaviour
         } else {
             Vector2 direction = playerPosition - enemyPosition;
             movementSpeed = 0.0f;
-           // Debug.Log("enemy object should stop");
             direction.Normalize();
         }
     }
@@ -87,7 +85,6 @@ public class EnemyMovement : MonoBehaviour
         direction.Normalize();
 
         Vector2 movementVelocity = direction * movementSpeed;
-
         transform.Translate(movementVelocity * Time.deltaTime);
     }
 
@@ -98,7 +95,6 @@ public class EnemyMovement : MonoBehaviour
         if(distToPlayer <= 2.5f){
             return true;
         } else {
-            //movementSpeed = 3.0f;
             return false;
         }
     }
@@ -108,7 +104,6 @@ public class EnemyMovement : MonoBehaviour
     **/
     private void TrackMovement() {
         Vector2 movement = (Vector2)transform.position - lastPosition;
-
         lastPosition = transform.position;
         xMovement = movement.x;
         yMovement = movement.y;
@@ -116,8 +111,5 @@ public class EnemyMovement : MonoBehaviour
         if(xMovement != 0f){
             lastXMovement = xMovement;
         }
-        //if(movement.magnitude > 0){
-          //  direction = movement.normalized;
-        //}
     }
 }
