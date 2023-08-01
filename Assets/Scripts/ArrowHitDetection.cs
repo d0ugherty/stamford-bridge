@@ -14,12 +14,10 @@ public class ArrowHitDetection : MonoBehaviour {
         gameManager = FindObjectOfType<GameManager>();
     }
 
-
     private void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.CompareTag("Player")) {
             flash = other.gameObject.GetComponent<Flash>();
             playerRenderer = other.gameObject.GetComponent<Renderer>();
-            //other.gameObject.GetComponent<PlayerMovement>().movementSpeed = 0;
             Debug.Log("Player hit with arrow");
             gameManager.DecHP();
             flash.TakeHit(playerRenderer);
